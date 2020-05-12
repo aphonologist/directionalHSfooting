@@ -112,7 +112,7 @@ class ParseSyllable:
 				else:
 					loci.append(0)
 
-		if self.direction == 'N': return sum(loci)
+		if self.direction == 'N': return [sum(loci)]
 		if self.direction == 'R': return loci[::-1]
 		return loci
 
@@ -133,7 +133,7 @@ class Trochee:
 							loci[seg] = 1
 				seg += 1
 
-		if self.direction == 'N': return sum(loci)
+		if self.direction == 'N': return [sum(loci)]
 		if self.direction == 'R': return loci[::-1]
 		return loci
 
@@ -154,7 +154,7 @@ class Iamb:
 							loci[seg] = 1
 				seg += 1
 
-		if self.direction == 'N': return sum(loci)
+		if self.direction == 'N': return [sum(loci)]
 		if self.direction == 'R': return loci[::-1]
 		return loci
 
@@ -176,7 +176,7 @@ class FtBin:
 								if candidate[i] != 'H':
 									loci[seg] = 1
 				seg += 1
-		if self.direction == 'N': return sum(loci)
+		if self.direction == 'N': return [sum(loci)]
 		if self.direction == 'R': return loci[::-1]
 		return loci
 
@@ -203,14 +203,14 @@ def tablO(tableau, input, candidates, constraints, optimum, comptableau):
 	# remaining rows: candidates and violations
 	for c in range(len(candidates)):
 		if c == optimum:
-			print('->', '{0:>{1}}'.format(candidates[c], colwidths[0]-3), end=' | ')
+			print('-> {0:>{1}}'.format(candidates[c], colwidths[0]-3), end=' | ')
 			for v in range(len(tableau)):
 				if v == len(tableau) - 1:
 					print('', '{0:^{1}}'.format(' '.join([str(x) for x in tableau[v][c]]), colwidths[v+1] - 1))
 				else:
 					print('', '{0:^{1}}'.format(' '.join([str(x) for x in tableau[v][c]]), colwidths[v+1] - 1), end=' | ')
 		else:
-			print('{0:>{1}}'.format(candidates[c], colwidths[0]), end=' | ')
+			print('   {0:<{1}}'.format(candidates[c], colwidths[0]-3), end=' | ')
 			for v in range(len(tableau)):
 				if v == len(tableau) - 1:
 					print(comptableau[c][v], '{0:^{1}}'.format(' '.join([str(x) for x in tableau[v][c]]), colwidths[v+1] - 2))
@@ -227,6 +227,102 @@ def leq(v1, v2):
 		if v1[i] > v2[i]:
 			return False
 	return True
+
+# point-wise fusion
+def fuse(a, b):
+	if a == 'L' or b == 'L': return 'L'
+	if a == 'e': return b
+	if b == 'e': return a
+	return 'W'
+
+# function that extracts ERCs from a comparative vector
+def ERCs(cv):
+	W = []
+	L = []
+
+	for c in range(len(cv)):
+		if cv[c] == 'W':
+			W.append(c)
+		if cv[c] == 'L':
+			L.append(c)
+
+	WLs = []
+	for l in L:
+		WL = []
+		for w in W:
+			WL.append(str(w) + '>>' + str(l))
+		WLs.append(WL)
+
+	ERC = WLs[0][:]
+	for WL in WLs[1:]:
+		temp = ERC[:]
+		ERC = []
+		for wl in WL:
+			for t in temp:
+				ERC.append(wl + ',' + t)
+	return ERC
+
+# FRed
+def FRed(comptableau):
+	FNF = []
+
+	# if A is empty, then FNF is empty
+	if not comptableau:
+		return FNF
+
+	cols = len(comptableau[0])
+
+	# Fuse the entire tableau
+	fuseall = comptableau[0][:]
+
+	# Residuals - collect vectors with an 'e' in col i
+	res = []
+	for c in range(cols):
+		res.append([])
+
+	for row in comptableau[1:]:
+		fuseall = [fuse(a,b) for a,b in zip(fuseall, row)]
+		for c in range(cols):
+			if row[c] == 'e':
+				res[c].append(row)
+
+	holdfus = fuseall[:]
+
+	# Update residuals - keep only cols with 'W' in fuseall
+	for c in range(cols):
+		if fuseall[c] != 'W':
+			res[c] = []
+
+	# Check entailments
+
+	# if fuseall is all 'W', then no ranking info
+	if 'L' not in fuseall and 'e' not in fuseall:
+		holdfus = []
+
+	# if fuseall is all 'L', then unsatisfiable
+	if 'W' not in fuseall and 'e' not in fuseall:
+		print('unsatisfiable!')
+		FNF = []
+
+	# does the set of residuals entail fuseall?
+
+	# fuse residuals
+	fuseres = ['e'] * cols
+	for c in range(cols):
+		for r in res[c]:
+			fuseres = [fuse(a,b) for a,b in zip(fuseres, r)]
+
+	# fuseres entails fuseall if they have the same number of 'L's
+	if fuseres.count('L') == fuseall.count('L'):
+		holdfus = []
+
+	FNF = [holdfus]
+
+	# recurse on the residuals
+	for c in range(cols):
+		FNF += FRed(res[c])
+
+	return [fnf for fnf in FNF if fnf]
 
 alphabet = ['l', 'L']
 input = 'lll'
@@ -265,4 +361,16 @@ for c in range(len(candidates)):
 			row[v] = 'W'
 	comptableau.append(row)
 
-tablO(tableau, input, candidates, con, optimum, comptableau)
+#tablO(tableau, input, candidates, con, optimum, comptableau)
+
+#print(FRed(comptableau[:optimum] + comptableau[optimum + 1:]))
+
+# testing with exs from BP (2011)
+ex90 = [['W', 'L', 'W'], ['e','W','L']]
+#print(FRed(ex90))
+
+ex96 = [['W', 'L', 'e', 'W'], ['e','W','L','W'], ['W','W','L','e'], ['W','L','W','e']]
+#print(FRed(ex96))
+
+ex98 = [['e','e','W','L'],['e','W','L','e'],['W','L','W','e'],['e','e','W','W'],['e','W','L','W'],['W','L','W','L'],['W','W','L','e']]
+#print(FRed(ex98))
