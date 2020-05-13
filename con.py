@@ -30,15 +30,14 @@ class Trochee:
 		self.name = 'Trochee' + direction
 
 	def vios(self, candidate):
-		loci = [0 for segment in candidate if segment in alph.alphabet]
-		seg = 0
+		loci = []
+
 		for i in range(len(candidate)):
 			if candidate[i] in alph.alphabet:
-				if i > 1:
-					if candidate[i-1] == "'":
-						if candidate[i-2] != '(':
-							loci[seg] = 1
-				seg += 1
+				if candidate[i-1:i+4] == "(L'L)" or candidate[i-3:i+2] == "(L'L)":
+					loci.append(1)
+				else:
+					loci.append(0)
 
 		if self.direction == 'N': return [sum(loci)]
 		if self.direction == 'R': return loci[::-1]
@@ -51,38 +50,34 @@ class Iamb:
 		self.name = 'Iamb' + direction
 
 	def vios(self, candidate):
-		loci = [0 for segment in candidate if segment in alph.alphabet]
-		seg = 0
+		loci = []
+
 		for i in range(len(candidate)):
 			if candidate[i] in alph.alphabet:
-				if 0 < i < len(candidate) - 1:
-					if candidate[i-1] == "'":
-						if candidate[i+1] != ')':
-							loci[seg] = 1
-				seg += 1
+				if candidate[i-1:i+4] == "('LL)" or candidate[i-3:i+2] == "('LL)":
+					loci.append(1)
+				else:
+					loci.append(0)
 
 		if self.direction == 'N': return [sum(loci)]
 		if self.direction == 'R': return loci[::-1]
 		return loci
 
-# FtBin v1 -- satisfied by (H)
+# FtBin
 class FtBin:
 	def __init__(self, direction):
 		self.direction = direction
 		self.name = 'FtBin' + direction
 
 	def vios(self, candidate):
-		loci = [0 for segment in candidate if segment in alph.alphabet]
-		seg = 0
+		loci = []
 		for i in range(len(candidate)):
 			if candidate[i] in alph.alphabet:
-				if 1 < i < len(candidate) - 1:
-					if candidate[i-1] == "'":
-						if candidate[i-2] == '(':
-							if candidate[i+1] == ')':
-								if candidate[i] != 'H':
-									loci[seg] = 1
-				seg += 1
+				if candidate[i-2:i+2] == "('L)":
+					loci.append(1)
+				else:
+					loci.append(0)
+
 		if self.direction == 'N': return [sum(loci)]
 		if self.direction == 'R': return loci[::-1]
 		return loci

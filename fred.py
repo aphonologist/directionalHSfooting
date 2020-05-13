@@ -7,29 +7,29 @@ def fuse(a, b):
 
 # FRed
 def FRed(comptableau):
-	FNF = []
+	FNF = set([])
 
 	# if A is empty, then FNF is empty
 	if not comptableau:
-		return FNF
+		return set([])
 
 	cols = len(comptableau[0])
 
 	# Fuse the entire tableau
-	fuseall = comptableau[0][:]
+	fuseall = ['e'] * cols
 
 	# Residuals - collect vectors with an 'e' in col i
 	res = []
 	for c in range(cols):
 		res.append([])
 
-	for row in comptableau[1:]:
+	for row in comptableau:
 		fuseall = [fuse(a,b) for a,b in zip(fuseall, row)]
 		for c in range(cols):
 			if row[c] == 'e':
 				res[c].append(row)
 
-	holdfus = fuseall[:]
+	holdfus = [tuple(fuseall)]
 
 	# Update residuals - keep only cols with 'W' in fuseall
 	for c in range(cols):
@@ -43,9 +43,8 @@ def FRed(comptableau):
 		holdfus = []
 
 	# if fuseall is all 'L', then unsatisfiable
-	if 'W' not in fuseall and 'e' not in fuseall:
-		print('unsatisfiable!')
-		return []
+	if 'W' not in fuseall:
+		return ('unsat',)
 
 	# does the set of residuals entail fuseall?
 
@@ -59,10 +58,14 @@ def FRed(comptableau):
 	if fuseres.count('L') == fuseall.count('L'):
 		holdfus = []
 
-	FNF = [holdfus]
+	if holdfus:
+		FNF.add(tuple(fuseall))
 
 	# recurse on the residuals
 	for c in range(cols):
-		FNF += FRed(res[c])
+		FNF = FNF.union(FRed(res[c]))
 
-	return set([tuple(fnf) for fnf in FNF if fnf])
+	if ('unsat',) in FNF:
+		return ('unsat',)
+
+	return FNF

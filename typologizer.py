@@ -20,14 +20,8 @@ def leq(v1, v2):
 
 # function that extracts ERCs in CNF from a comparative vector
 def ERCs(cv):
-	W = []
-	L = []
-
-	for c in range(len(cv)):
-		if cv[c] == 'W':
-			W.append(c)
-		if cv[c] == 'L':
-			L.append(c)
+	W = [i for i in range(len(cv)) if cv[i] == 'W']
+	L = [i for i in range(len(cv)) if cv[i] == 'L']
 
 	WLs = []
 	for l in L:
@@ -40,7 +34,7 @@ def ERCs(cv):
 
 alpha = ['l', 'L']
 alph.initialize(alpha)
-input = 'lll'
+input = 'lllll'
 
 con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R')]
 
@@ -52,9 +46,6 @@ tableau = []
 for constraint in con:
 	tableau.append([constraint.vios(candidate) for candidate in candidates])
 
-import random
-optimum = random.randint(0,len(candidates)-1)
-
 # Find minimal violation for all constraints
 viominima = [tableau[c][0][:] for c in range(len(con))]
 
@@ -63,33 +54,31 @@ for c in range(1, len(candidates)):
 		if not leq(viominima[v], tableau[v][c]):
 				viominima[v] = tableau[v][c][:]
 
-# Generate comparative tableau
-comptableau = []
-for c in range(len(candidates)):
-	row = [''] * len(con)
-	for v in range(len(con)):
-		if leq(tableau[v][optimum], tableau[v][c]) and leq(tableau[v][c], tableau[v][optimum]):
-			row[v] = 'e'
-		elif leq(tableau[v][c], tableau[v][optimum]):
-			row[v] = 'L'
-		else:
-			row[v] = 'W'
-	comptableau.append(row)
+# Iterate through candidates
+for optimum in range(len(candidates)):
 
-tablO(tableau, input, candidates, con, optimum, comptableau)
+	# Generate comparative tableau
+	comptableau = []
+	for c in range(len(candidates)):
+		row = [''] * len(con)
+		for v in range(len(con)):
+			if leq(tableau[v][optimum], tableau[v][c]) and leq(tableau[v][c], tableau[v][optimum]):
+				row[v] = 'e'
+			elif leq(tableau[v][c], tableau[v][optimum]):
+				row[v] = 'L'
+			else:
+				row[v] = 'W'
+		comptableau.append(row)
 
-for x in FRed(comptableau[:optimum] + comptableau[optimum + 1:]):
-	print(x)
-	print(ERCs(x))
+	#tablO(tableau, input, candidates, con, optimum, comptableau)
 
-# testing with exs from BP (2011)
-ex90 = [['W', 'L', 'W'], ['e','W','L']]
-#print(FRed(ex90))
-
-ex96 = [['W', 'L', 'e', 'W'], ['e','W','L','W'], ['W','W','L','e'], ['W','L','W','e']]
-#print(FRed(ex96))
-
-ex98 = [['e','e','W','L'],['e','W','L','e'],['W','L','W','e'],['e','e','W','W'],['e','W','L','W'],['W','L','W','L'],['W','W','L','e']]
-#print(FRed(ex98))
-
-#print(ERCs(['W','W','L','L']))
+	fnf = FRed(comptableau[:optimum] + comptableau[optimum + 1:])
+	print(candidates[optimum])
+	if 'unsat' not in fnf:
+		ercs = []
+		for x in fnf:
+			ercs += ERCs(x)
+		print(ercs)
+	else:
+		print('unsatisfiable!')
+	print()
