@@ -34,51 +34,54 @@ def ERCs(cv):
 
 alpha = ['l', 'L']
 alph.initialize(alpha)
-input = 'lllll'
+urs = ['llllll', 'lllllll']
 
 con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R')]
 
-# Generate candidates
-candidates = gen(input)
+for input in urs:
+	print(input)
 
-# Assemble tableau
-tableau = []
-for constraint in con:
-	tableau.append([constraint.vios(candidate) for candidate in candidates])
+	# Generate candidates
+	candidates = gen(input)
 
-# Find minimal violation for all constraints
-viominima = [tableau[c][0][:] for c in range(len(con))]
+	# Assemble tableau
+	tableau = []
+	for constraint in con:
+		tableau.append([constraint.vios(candidate) for candidate in candidates])
 
-for c in range(1, len(candidates)):
-	for v in range(len(con)):
-		if not leq(viominima[v], tableau[v][c]):
-				viominima[v] = tableau[v][c][:]
+	# Find minimal violation for all constraints
+	viominima = [tableau[c][0][:] for c in range(len(con))]
 
-# Iterate through candidates
-for optimum in range(len(candidates)):
-
-	# Generate comparative tableau
-	comptableau = []
-	for c in range(len(candidates)):
-		row = [''] * len(con)
+	for c in range(1, len(candidates)):
 		for v in range(len(con)):
-			if leq(tableau[v][optimum], tableau[v][c]) and leq(tableau[v][c], tableau[v][optimum]):
-				row[v] = 'e'
-			elif leq(tableau[v][c], tableau[v][optimum]):
-				row[v] = 'L'
-			else:
-				row[v] = 'W'
-		comptableau.append(row)
+			if not leq(viominima[v], tableau[v][c]):
+					viominima[v] = tableau[v][c][:]
 
-	#tablO(tableau, input, candidates, con, optimum, comptableau)
+	# Iterate through candidates
+	for optimum in range(len(candidates)):
 
-	fnf = FRed(comptableau[:optimum] + comptableau[optimum + 1:])
-	print(candidates[optimum])
-	if 'unsat' not in fnf:
-		ercs = []
-		for x in fnf:
-			ercs += ERCs(x)
-		print(ercs)
-	else:
-		print('unsatisfiable!')
-	print()
+		# Generate comparative tableau
+		comptableau = []
+		for c in range(len(candidates)):
+			row = [''] * len(con)
+			for v in range(len(con)):
+				if leq(tableau[v][optimum], tableau[v][c]) and leq(tableau[v][c], tableau[v][optimum]):
+					row[v] = 'e'
+				elif leq(tableau[v][c], tableau[v][optimum]):
+					row[v] = 'L'
+				else:
+					row[v] = 'W'
+			comptableau.append(row)
+
+		#tablO(tableau, input, candidates, con, optimum, comptableau)
+
+		fnf = FRed(comptableau[:optimum] + comptableau[optimum + 1:])
+		print(candidates[optimum])
+		if 'unsat' not in fnf:
+			ercs = []
+			for x in fnf:
+				ercs += ERCs(x)
+			print(ercs)
+		else:
+			print('unsatisfiable!')
+		print()
