@@ -129,41 +129,15 @@ for ur in urs:
 	else:
 		while derivations:
 			typology.append(derivations.pop())
-#	else:
-#		while derivations:
-#			d1 = derivations.pop()
-#			for d2 in typology:
-#				combinedFNF = d1[0][:] + d2[0][:]
-#				newFNF = FRed(combinedFNF)
-#				if 'unsat' not in newFNF:
-#					language = (list(newFNF)[:],) + d2[1:] + d1[2:]
-#					typology.append(language)
-#					for x in language[1:]:
-#						print(x[0],x[-1])
 
-#count = 0
-# combine derivations
-#combined = combinations(derivations, len(urs))
-#for combo in combined:
-#	print('combo', count)
-#	count += 1
-#	comboFNF = []
-#	for derivation in combo:
-#		comboFNF += derivation[0][:]
-
-#	derivs = [derivation[1] for derivation in combo]
-
-	# check for inconsistency
-#	newFNF = FRed(comboFNF)
-#	if 'unsat' not in newFNF:
-#		language = (list(newFNF)[:], derivs)
-#		typology.append(language)
-
-outstr = '\t'.join(x.name for x in con) + '\n'
+typologydict = {}
 
 for language in typology:
+	langIOs = ()
 	for chain in language[1:]:
-		outstr += chain[0] + '\t' + chain[-1] + '\n'
+		langIOs = langIOs + (chain[0] + '\t' + chain[-1],)
+	if langIOs not in typologydict:
+		typologydict[langIOs] = []
 
 	ERCS = set()
 	for cv in language[0]:
@@ -236,8 +210,19 @@ for language in typology:
 	for v in collapsedERCS:
 		visit(v)
 
-	for ce in collapsedERCS:
-		outstr += ce + '\t' + '\t'.join(collapsedERCS[ce]) + '\n'
+	# remove X >> {}
+	collapsedERCS = {k:v for k,v in collapsedERCS.items() if v}
+	if collapsedERCS not in typologydict[langIOs]:
+		typologydict[langIOs].append(collapsedERCS)
+
+outstr = '\t'.join(x.name for x in con) + '\n\n'
+for language in typologydict:
+	for io in language:
+		outstr += io + '\n'
+	for fnf in typologydict[language]:
+		for a in fnf:
+			outstr += a + '\t' + '\t'.join(fnf[a]) + '\n'
+		outstr += '\n'
 	outstr += '\n'
 
 f = open('results/' + filename + '.tsv', 'w')
