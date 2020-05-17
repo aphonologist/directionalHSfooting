@@ -1,13 +1,13 @@
-import sys
+#import sys
 import alph
 from con import *
 from gen import gen
 from tablO import tablO
 from fred import FRed
-from itertools import combinations
+#from itertools import combinations
 
 # command line parameter to control printing
-verbose = '-v' in sys.argv
+#verbose = '-v' in sys.argv
 
 # function to determine whether v1 <= v2 by checking first position where they differ
 def leq(v1, v2):
@@ -34,15 +34,22 @@ def ERCs(cv):
 
 alpha = ['l', 'L']
 alph.initialize(alpha)
-urs = ['ll','llllll', 'lllllll']
+urs = ['l','ll','llllll', 'lllllll']
 
-con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R')]
+# Pruitt (2010, 2012)
+#filename = 'pruitt20102012'
+#con = [ParseSyllable('N'), Trochee('N'), Iamb('N'), FtBin('N'), AllFtL(), AllFtR()]
 
-# get all derivations for each ur
-derivations = []
+# Directional typology!
+filename = 'directional-iterative'
+con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R'), EdgeFoot('L'), EdgeFoot('R')]
+
+typology = []
 
 # ([FNF], derivation)
 for ur in urs:
+	derivations = []
+
 	stack = []
 	stack.append(([], (ur,)))
 
@@ -104,26 +111,59 @@ for ur in urs:
 					newderivation = (list(newFNF)[:], derivation[1] + (candidates[optimum],))
 					stack.append(newderivation)
 
-typology = []
+	# combine derivations with previous derivations
+	if typology:
+		toadd = []
+		while derivations:
+			derivation = derivations.pop()
+			for language in typology:
+				combinedFNF = derivation[0][:] + language[0][:]
+				newFNF = FRed(combinedFNF)
+				if 'unsat' not in newFNF:
+					newlanguage = (list(newFNF)[:],) + language[1:] + (derivation[1],)
+					toadd.append(newlanguage)
+		typology = []
+		while toadd:
+			typology.append(toadd.pop())
 
+	else:
+		while derivations:
+			typology.append(derivations.pop())
+#	else:
+#		while derivations:
+#			d1 = derivations.pop()
+#			for d2 in typology:
+#				combinedFNF = d1[0][:] + d2[0][:]
+#				newFNF = FRed(combinedFNF)
+#				if 'unsat' not in newFNF:
+#					language = (list(newFNF)[:],) + d2[1:] + d1[2:]
+#					typology.append(language)
+#					for x in language[1:]:
+#						print(x[0],x[-1])
+
+#count = 0
 # combine derivations
-combined = combinations(derivations, len(urs))
-for combo in combined:
-	comboFNF = []
-	for derivation in combo:
-		comboFNF += derivation[0][:]
+#combined = combinations(derivations, len(urs))
+#for combo in combined:
+#	print('combo', count)
+#	count += 1
+#	comboFNF = []
+#	for derivation in combo:
+#		comboFNF += derivation[0][:]
 
-	derivs = [derivation[1] for derivation in combo]
+#	derivs = [derivation[1] for derivation in combo]
 
 	# check for inconsistency
-	newFNF = FRed(comboFNF)
-	if 'unsat' not in newFNF:
-		language = (list(newFNF)[:], derivs)
-		typology.append(language)
+#	newFNF = FRed(comboFNF)
+#	if 'unsat' not in newFNF:
+#		language = (list(newFNF)[:], derivs)
+#		typology.append(language)
+
+outstr = '\t'.join(x.name for x in con) + '\n'
 
 for language in typology:
-	for chain in language[1]:
-		print(chain[0],'\t',chain[-1])
+	for chain in language[1:]:
+		outstr += chain[0] + '\t' + chain[-1] + '\n'
 
 	ERCS = set()
 	for cv in language[0]:
@@ -197,6 +237,9 @@ for language in typology:
 		visit(v)
 
 	for ce in collapsedERCS:
-		print(ce, '\t', '\t'.join(collapsedERCS[ce]))
+		outstr += ce + '\t' + '\t'.join(collapsedERCS[ce]) + '\n'
+	outstr += '\n'
 
-	print()
+f = open('results/' + filename + '.tsv', 'w')
+f.write(outstr)
+f.close()

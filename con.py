@@ -8,7 +8,9 @@ import alph
 class ParseSyllable:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'ParseSyllable' + direction
+		self.name = 'ParseSyllable'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		loci = []
@@ -27,7 +29,9 @@ class ParseSyllable:
 class Trochee:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'Trochee' + direction
+		self.name = 'Trochee'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		loci = [0 for segment in candidate if segment in alph.alphabet]
@@ -48,7 +52,9 @@ class Trochee:
 class Iamb:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'Iamb' + direction
+		self.name = 'Iamb'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		loci = [0 for segment in candidate if segment in alph.alphabet]
@@ -70,7 +76,9 @@ class FootForm:
 	def __init__(self, type, direction):
 		self.type = type
 		self.direction = direction
-		self.name = 'FootForm' + type + direction
+		self.name = 'FootForm' + type
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		if self.type == 'Trochee':
@@ -102,7 +110,9 @@ class FootForm:
 class FtBin:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'FtBin' + direction
+		self.name = 'FtBin'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		loci = [0 for segment in candidate if segment in alph.alphabet]
@@ -125,7 +135,9 @@ class FtBin:
 class FtBinSyll:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'FtBinSyll' + direction
+		self.name = 'FtBinSyll'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		loci = [0 for segment in candidate if segment in alph.alphabet]
@@ -147,7 +159,9 @@ class FtBinSyll:
 class Clash:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'Clash' + direction
+		self.name = 'Clash'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		cand = candidate.replace('(', '').replace(')', '')
@@ -169,7 +183,9 @@ class Clash:
 class EdgeFoot:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'EdgeFoot' + direction
+		self.name = 'EdgeFoot'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		loci = [0]
@@ -192,7 +208,9 @@ class EdgeFoot:
 class NonFinality:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'NonFinality' + direction
+		self.name = 'NonFinality'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		loci = [0]
@@ -216,7 +234,7 @@ class AllFtL:
 				for j in range(i):
 					if candidate[j] in alph.alphabet:
 						loci += 1
-		return loci
+		return [loci]
 
 # AllFt-R: For each foot in a word assign one violation for every syllable separating it from the right edge of the word
 class AllFtR:
@@ -231,7 +249,7 @@ class AllFtR:
 				for j in range(i+1, len(candidate)):
 					if candidate[j] in alph.alphabet:
 						loci += 1
-		return loci
+		return [loci]
 
 # Nate Koser align L: *syllable(Foot)
 class SyllFt:
@@ -265,7 +283,9 @@ class FtSyll:
 class NoFeet:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'NoFeet' + direction
+		self.name = 'NoFeet'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		if self.direction == 'N':
@@ -289,7 +309,9 @@ class NoFeet:
 class HaveStress:
 	def __init__(self, direction):
 		self.direction = direction
-		self.name = 'HaveStress' + direction
+		self.name = 'HaveStress'
+		if direction != 'N':
+			self.name += direction
 
 	def vios(self, candidate):
 		if self.direction == 'N':
