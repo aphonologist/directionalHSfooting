@@ -87,7 +87,7 @@ def FRed(A):
 #		MIB = MIB.union(FRed(res))
 		SKB = SKB.union(FRed(res))
 
-	if ('unsat',) in MIB:
+	if ('unsat',) in SKB:
 		return ('unsat',)
 
 #	return MIB
