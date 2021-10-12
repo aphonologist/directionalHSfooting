@@ -5,67 +5,90 @@ def fuse(a, b):
 	if b == 'e': return a
 	return 'W'
 
-# FRed
-def FRed(comptableau):
-	FNF = set([])
+# function to fuse an entire comparative tableau
+def fuse_tableau(A):
+	if not A:
+		return ()
+	fuse_all = ['e'] * len(A[0])
+	for v in A:
+		fuse_all = [fuse(a,b) for a,b in zip(fuse_all, v)]
+	return tuple(fuse_all)
 
-	# if A is empty, then FNF is empty
-	if not comptableau:
-		return set([])
+# FRed: A is a comparative tableau
+def FRed(A):
+#	MIB = set()
+	SKB = set()
 
-	cols = len(comptableau[0])
+	# Step 0: if A is empty, then FNF is empty
+	if not A:
+		return set()
 
-	# Fuse the entire tableau
-	fuseall = ['e'] * cols
+	cols = len(A[0])
 
-	# Residuals - collect vectors with an 'e' in col i
-	res = []
-	for c in range(cols):
-		res.append([])
+	# Step 1: fuse the entire tableau
+	HoldFus = fuse_tableau(A)
 
-	for row in comptableau:
-		fuseall = [fuse(a,b) for a,b in zip(fuseall, row)]
-		for c in range(cols):
-			if row[c] == 'e':
-				res[c].append(row)
+	# Step 2: collect info loss residues
+	ILC = []
 
-	holdfus = [tuple(fuseall)]
+	# info loss configurations:
+	# columns i where HoldFus[i] = W and there's an e in some vector
+	fused_Ws = [i for i in range(cols) if HoldFus[i] == 'W']
+	for col in fused_Ws:
+		for row in range(len(A)):
+			if A[row][col] == 'e':
+				ILC.append(col)
+				continue
 
-	# Update residuals - keep only cols with 'W' in fuseall
-	for c in range(cols):
-		if fuseall[c] != 'W':
-			res[c] = []
+	# residue - vectors with e in col i where i is in ILC
+	Res = []
+	TR = []
+	for col in ILC:
+		Res.append([])
+		for v in A:
+			if v[col] == 'e':
+				Res[-1].append(tuple(v))
+				TR.append(tuple(v))
 
-	# Check entailments
+	# Step 3: check entailment
+	fused_A = fuse_tableau(A)
 
-	# if fuseall is all 'W', then no ranking info
-	if 'L' not in fuseall and 'e' not in fuseall:
-		holdfus = []
+	# return skeletal basis
+	if fused_A and 'W' not in fused_A and 'e' not in fused_A:
+		return ('unsat,')
+	s = [x for x in fused_A]
+	fuse_res = fuse_tableau(TR)
+	for k in range(len(fuse_res)):
+		if fuse_res[k] == 'L':
+			s[k] = 'e'
+	if 'L' not in s and 'e' not in s:
+		HoldFus = ()
+	else:
+		SKB.add(tuple(s))
 
-	# if fuseall is all 'L', then unsatisfiable
-	if 'W' not in fuseall:
+	# return maximally informative basis
+#	# if fused tableau is all W, then no ranking info
+#	if 'L' not in fused_A and 'e' not in fused_A:
+#		HoldFus = ()
+#	# if fused tableau is all L, then unsatisfiable
+#	elif 'W' not in fused_A and 'e' not in fused_A:
+#		return ('unsat',)
+#	# if total residue entails fused tableau, then no ranking info
+#	# i.e., if they have same number of Ls
+#	else:
+#		fuse_res = fuse_tableau(TR)
+#		if fuse_res.count('L') == fused_A.count('L'):
+#			HoldFus = ()
+#		else:
+#			MIB.add(HoldFus)
+
+	# Step 4: recurse on the residue
+	for res in Res:
+#		MIB = MIB.union(FRed(res))
+		SKB = SKB.union(FRed(res))
+
+	if ('unsat',) in MIB:
 		return ('unsat',)
 
-	# does the set of residuals entail fuseall?
-
-	# fuse residuals
-	fuseres = ['e'] * cols
-	for c in range(cols):
-		for r in res[c]:
-			fuseres = [fuse(a,b) for a,b in zip(fuseres, r)]
-
-	# fuseres entails fuseall if they have the same number of 'L's
-	if fuseres.count('L') == fuseall.count('L'):
-		holdfus = []
-
-	if holdfus:
-		FNF.add(tuple(fuseall))
-
-	# recurse on the residuals
-	for c in range(cols):
-		FNF = FNF.union(FRed(res[c]))
-
-	if ('unsat',) in FNF:
-		return ('unsat',)
-
-	return FNF
+#	return MIB
+	return SKB
