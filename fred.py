@@ -15,9 +15,12 @@ def fuse_tableau(A):
 	return tuple(fuse_all)
 
 # FRed: A is a comparative tableau
-def FRed(A):
+def FRed(A, seen=[]):
 #	MIB = set()
 	SKB = set()
+
+	# remove e-only ercs following Tesar's implementation
+	A = [tuple(a) for a in A if 'W' in a or 'L' in a]
 
 	# Step 0: if A is empty, then FNF is empty
 	if not A:
@@ -30,6 +33,7 @@ def FRed(A):
 
 	# Step 2: collect info loss residues
 	ILC = []
+	ilc_set = set()
 
 	# info loss configurations:
 	# columns i where HoldFus[i] = W and there's an e in some vector
@@ -37,18 +41,20 @@ def FRed(A):
 	for col in fused_Ws:
 		for row in range(len(A)):
 			if A[row][col] == 'e':
-				ILC.append(col)
-				continue
+				ilc_set.add(col)
+	ILC = list(ilc_set)
 
 	# residue - vectors with e in col i where i is in ILC
 	Res = []
-	TR = []
+	tr_set = set()
 	for col in ILC:
-		Res.append([])
+		res_set = set()
 		for v in A:
 			if v[col] == 'e':
-				Res[-1].append(tuple(v))
-				TR.append(tuple(v))
+				res_set.add(tuple(v))
+				tr_set.add(tuple(v))
+		Res.append(tuple(res_set))
+	TR = tuple(tr_set)
 
 	# Step 3: check entailment
 	fused_A = fuse_tableau(A)
@@ -61,7 +67,7 @@ def FRed(A):
 	for k in range(len(fuse_res)):
 		if fuse_res[k] == 'L':
 			s[k] = 'e'
-	if 'L' not in s and 'e' not in s:
+	if 'L' not in s:
 		HoldFus = ()
 	else:
 		SKB.add(tuple(s))
@@ -84,8 +90,17 @@ def FRed(A):
 
 	# Step 4: recurse on the residue
 	for res in Res:
-#		MIB = MIB.union(FRed(res))
-		SKB = SKB.union(FRed(res))
+		resset = set(res)
+		processed = False
+		for s in seen:
+			if resset.issubset(s):
+				processed = True
+				break
+		if not processed:
+	#		MIB = MIB.union(FRed(tuple(res)))
+			SKB = SKB.union(FRed(tuple(res), seen))
+			# memoize following Tesar's implementation
+			seen = seen + [resset]
 
 	if ('unsat',) in SKB:
 		return ('unsat',)
