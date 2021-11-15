@@ -2,7 +2,6 @@
 
 This repository contains a typology calculator for Harmonic Serialism based on the Fusional Reduction algorithm (FRed) (Brasoveanu & Prince 2011). The component programs are:
 
-*    alph.py defines a global alphabet for use by the modules
 *    con.py defines constraints as Classes which can be evaluated traditionally or directionally
 *    fred.py provides a implementation of FRed
 *    gen.py defines the candidate generation function
