@@ -1,5 +1,3 @@
-import sys
-
 # point-wise fusion
 def fuse(a, b):
 	if a == 'L' or b == 'L': return 'L'
@@ -62,9 +60,8 @@ def FRed(A, seen=[]):
 	fused_A = fuse_tableau(A)
 
 	# return skeletal basis
-	if fused_A and 'W' not in fused_A and 'e' not in fused_A:
-		print('unsat')
-		sys.exit()
+	if fused_A and 'W' not in fused_A: # and 'e' not in fused_A:
+		return ('unsat',)
 	s = [x for x in fused_A]
 	fuse_res = fuse_tableau(TR)
 	for k in range(len(fuse_res)):
@@ -81,8 +78,7 @@ def FRed(A, seen=[]):
 #		HoldFus = ()
 #	# if fused tableau is all L, then unsatisfiable
 #	elif 'W' not in fused_A and 'e' not in fused_A:
-#		print('unsat')
-#		sys.exit()
+#		return ('unsat',)
 #	# if total residue entails fused tableau, then no ranking info
 #	# i.e., if they have same number of Ls
 #	else:
@@ -101,10 +97,13 @@ def FRed(A, seen=[]):
 				processed = True
 				break
 		if not processed:
-#			MIB = MIB.union(FRed(tuple(res), seen))
+	#		MIB = MIB.union(FRed(tuple(res)))
 			SKB = SKB.union(FRed(tuple(res), seen))
 			# memoize following Tesar's implementation
 			seen = seen + [resset]
+
+	if ('unsat',) in SKB:
+		return ('unsat',)
 
 #	return MIB
 	return SKB

@@ -1,10 +1,8 @@
 #import sys
-import alph
 from con import *
-from gen import gen
-from tablO import tablO
+from gen import gen_foot as gen
+#from tablO import tablO
 from fred import FRed
-#from itertools import combinations
 
 # command line parameter to control printing
 #verbose = '-v' in sys.argv
@@ -18,40 +16,29 @@ def leq(v1, v2):
 			return False
 	return True
 
-# function that extracts ERCs in CNF from a comparative vector
-def ERCs(cv):
-	W = [i for i in range(len(cv)) if cv[i] == 'W']
-	L = [i for i in range(len(cv)) if cv[i] == 'L']
-
-	WLs = []
-	for l in L:
-		WL = []
-		for w in W:
-			WL.append(str(w) + '>>' + str(l))
-		WLs.append(tuple(WL))
-
-	return WLs
-
-alpha = ['l', 'L']
-alph.initialize(alpha)
-urs = ['l','ll','llllll', 'lllllll']
+urs = ['s' * i for i in range(2, 10)]
 
 # Pruitt (2010, 2012)
-#filename = 'pruitt20102012'
-#con = [ParseSyllable('N'), Trochee('N'), Iamb('N'), FtBin('N'), AllFtL(), AllFtR()]
+#filename = 'pruitt20102012234567'
+#con = [ParseSyllable('N'), Trochee('N'), Iamb('N'), FtBin('N'), AllFtL(), AllFtR(), EdgeFoot('L'), EdgeFoot('R')]
 
 # Directional typology!
-filename = 'directional-iterative'
-con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R'), EdgeFoot('L'), EdgeFoot('R')]
+#con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R'), FootLeft('L'), FootLeft('R'), FootRight('L'), FootRight('R'), NonFinality('L'), NonFinality('R'), FootFoot('L'), FootFoot('R'), HdPrWd('L'), HdPrWd('R')]
+
+# Left-to-right constraints
+#con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Iamb('L'), FtBin('L'), FootLeft('L'), FootRight('L'), NonFinality('L'), FootFoot('L'), HdPrWd('L')]
+
+# Right-to-left constraints
+con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('R'), Iamb('R'), FtBin('R'), FootLeft('R'), FootRight('R'), NonFinality('R'), FootFoot('R'), HdPrWd('R')]
 
 typology = []
 
-# ([FNF], derivation)
+# (SKB, derivation)
 for ur in urs:
 	derivations = []
 
 	stack = []
-	stack.append(([], (ur,)))
+	stack.append((set(), (ur,)))
 
 	while stack:
 		derivation = stack.pop()
@@ -63,7 +50,8 @@ for ur in urs:
 
 		# Generate candidate set
 		input = derivation[1][-1]
-		candidates = gen(input)
+#		candidates = gen(input)
+		candidates = sorted(list(gen(input)))
 
 		# Assemble tableau
 		tableau = []
@@ -82,6 +70,7 @@ for ur in urs:
 		for optimum in range(len(candidates)):
 
 			# Generate comparative tableau
+			unsat = False
 			comptableau = []
 			for c in range(len(candidates)):
 				row = [''] * len(con)
@@ -93,138 +82,101 @@ for ur in urs:
 					else:
 						row[v] = 'W'
 				comptableau.append(row)
+				if 'W' not in row and 'L' in row:
+					unsat = True
+					break
+			if unsat: continue
 
 			#tablO(tableau, input, candidates, con, optimum, comptableau)
 
 			# Run FRed on optimum
-			FNF = FRed(comptableau[:optimum] + comptableau[optimum + 1:])
+			SKB = FRed(comptableau[:optimum] + comptableau[optimum + 1:])
 
-			if 'unsat' not in FNF:
+			if 'unsat' not in SKB:
 				# combine ranking arguments
-				combinedFNF = derivation[0][:]
-				for fnf in FNF:
-					combinedFNF.append(list(fnf))
+				combinedSKB = derivation[0].union(SKB)
 
 				# check for inconsistency
-				newFNF = FRed(combinedFNF)
-				if 'unsat' not in newFNF:
-					newderivation = (list(newFNF)[:], derivation[1] + (candidates[optimum],))
+				newSKB = FRed(combinedSKB)
+				if 'unsat' not in newSKB:
+					newderivation = (newSKB, derivation[1] + (candidates[optimum],))
 					stack.append(newderivation)
 
 	# combine derivations with previous derivations
+	# (SKB, derivation, derivation, ...)
 	if typology:
-		toadd = []
+		new_languages = []
 		while derivations:
 			derivation = derivations.pop()
 			for language in typology:
-				combinedFNF = derivation[0][:] + language[0][:]
-				newFNF = FRed(combinedFNF)
-				if 'unsat' not in newFNF:
-					newlanguage = (list(newFNF)[:],) + language[1:] + (derivation[1],)
-					toadd.append(newlanguage)
+				combinedSKB = derivation[0].union(language[0])
+				newSKB = FRed(combinedSKB)
+				if 'unsat' not in newSKB:
+					new_language = (newSKB,) + language[1:] + (derivation[1],)
+					new_languages.append(new_language)
 		typology = []
-		while toadd:
-			typology.append(toadd.pop())
+		while new_languages:
+			typology.append(new_languages.pop())
 
 	else:
 		while derivations:
 			typology.append(derivations.pop())
 
-typologydict = {}
+# representing in terms of stress patterns
+stress_gram = {}
 
-for language in typology:
-	langIOs = ()
-	for chain in language[1:]:
-		langIOs = langIOs + (chain[0] + '\t' + chain[-1],)
-	if langIOs not in typologydict:
-		typologydict[langIOs] = []
+for language in sorted(typology):
+	# get surface stress string
+	stress = []
+	feet = '\t'
+	for derivation in language[1:]:
+		stress.append(derivation[-1].replace('F','S').replace('T','S').replace('I','S').replace('t','s').replace('i','s'))
+		feet += derivation[-1] + '\t'
+	feet += '\n'
+	stress_tup = tuple(stress)
+	if stress_tup not in stress_gram:
+		stress_gram[stress_tup] = []
 
-	ERCS = set()
-	for cv in language[0]:
-		ERC = ERCs(cv)
-		for erc in ERC:
-			ERCS.add(erc)
+	# can constraints be collapsed for this language
+	direction_matters = []
+	constraint_names = []
+	for i in range(0, len(con) - 1, 2):
+		matters = False
+		for erc in language[0]:
+			if erc[i] != erc[i+1]:
+				matters = True
+				break
+		if matters:
+			direction_matters += [True, True]
+			constraint_names += [con[i].name, con[i+1].name]
+		else:
+			direction_matters += [False, False]
+			constraint_names += [con[i].name[:-1] + 'L/R']
 
-	# collapse ercs on direction
-	collapseset = set()
-	for constraint in con:
-		if constraint.direction in ['L', 'R']:
-			n = constraint.name[:-1]
-			d = constraint.direction
-			b = 'L'
-			if d == 'L': b = 'R'
-			dset = set()
-			bset = set()
-			for erc in ERCS:
-				for e in erc:
-					espl = [con[int(x)].name for x in e.split('>>')]
-					if espl[0][:-1] == espl[1][:-1]: continue
-					if espl[0][:-1] == n:
-						if espl[0][-1] == d:
-							dset.add(('',espl[1]))
-						elif espl[0][-1] == b:
-							bset.add(('',espl[1]))
-					if espl[1][:-1] == n:
-						if espl[1][-1] == d:
-							dset.add((espl[0],''))
-						elif espl[1][-1] == b:
-							bset.add((espl[0],''))
-			if dset == bset:
-				collapseset.add(n)
-	collapsedERCS = {}
-	for erc in ERCS:
-		for e in erc:
-			espl = [con[int(x)].name for x in e.split('>>')]
-			if espl[0][:-1] in collapseset:
-				espl[0] = espl[0][:-1]
-			if espl[1][:-1] in collapseset:
-				espl[1] = espl[1][:-1]
-			if espl[0] not in collapsedERCS:
-				collapsedERCS[espl[0]] = set()
-			collapsedERCS[espl[0]].add(espl[1])
+	# get derivation string
+	deriv_str = ''
+	for derivation in language[1:]:
+		deriv_str += '\t/' + derivation[0] + '/\t[' + derivation[-1] + ']\n'
+		deriv_str += '\t' + ' -> '.join(derivation) + '\n'
 
-	# remove transitive edges
-	visited = set()
+	# get constraint string
+	con_str = '\t' + '\t'.join(constraint_names) + '\n'
+	for erc in sorted(language[0]):
+		con_str += '\t'
+		i = 0
+		while i < len(erc):
+			con_str += erc[i] + '\t'
+			if not direction_matters[i]:
+				i += 1
+			i += 1
+		con_str += '\n'
 
-	def visit(v):
-		if v not in visited:
-			visited.add(v)
-			indirect = set()
-			if v in collapsedERCS:
-				for w in collapsedERCS[v]:
-					visit(w)
-					# run bfs to find descendents of w
-					queue = [w]
-					discovered = set()
-					while queue:
-						x = queue.pop()
-						if x in collapsedERCS:
-							for y in collapsedERCS[x]:
-								if y not in discovered:
-									discovered.add(y)
-									queue = [y] + queue
-					indirect = indirect.union(discovered)
-				for ind in indirect:
-					collapsedERCS[v].remove(ind)
+	# add to dictionary
+	stress_gram[stress_tup].append([feet, deriv_str, con_str])
 
-	for v in collapsedERCS:
-		visit(v)
-
-	# remove X >> {}
-	collapsedERCS = {k:v for k,v in collapsedERCS.items() if v}
-	if collapsedERCS not in typologydict[langIOs]:
-		typologydict[langIOs].append(collapsedERCS)
-
-outstr = '\t'.join(x.name for x in con) + '\n\n'
-for language in typologydict:
-	for io in language:
-		outstr += io + '\n'
-	for fnf in typologydict[language]:
-		for a in fnf:
-			outstr += a + '\t' + '\t'.join(fnf[a]) + '\n'
-		outstr += '\n'
-	outstr += '\n'
-
-f = open('results/' + filename + '.tsv', 'w')
-f.write(outstr)
-f.close()
+for s in sorted(stress_gram, key=lambda x:[sum(y.count('S') for y in x), x], reverse=True):
+	print(s)
+	for g in sorted(stress_gram[s]):
+		for x in g:
+			print(x)
+	print()
