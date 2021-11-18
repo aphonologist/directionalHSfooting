@@ -208,10 +208,8 @@ class AllFtL:
 	def vios(self, candidate):
 		loci = 0
 		for i in range(len(candidate)):
-			if candidate[i] == '(':
-				for j in range(i):
-					if candidate[j] in alph.alphabet:
-						loci += 1
+			if candidate[i] in ['F', 'T', 'i']:
+				loci += (i - 1)
 		return [loci]
 
 # AllFt-R: For each foot in a word assign one violation for every syllable separating it from the right edge of the word
@@ -223,8 +221,6 @@ class AllFtR:
 	def vios(self, candidate):
 		loci = 0
 		for i in range(len(candidate)):
-			if candidate[i] == ')':
-				for j in range(i+1, len(candidate)):
-					if candidate[j] in alph.alphabet:
-						loci += 1
+			if candidate[i] in ['F', 't', 'I']:
+				loci += len(candidate) - i - 1
 		return [loci]

@@ -18,18 +18,17 @@ def leq(v1, v2):
 
 urs = ['s' * i for i in range(2, 10)]
 
-# Pruitt (2010, 2012)
-#filename = 'pruitt20102012234567'
-#con = [ParseSyllable('N'), Trochee('N'), Iamb('N'), FtBin('N'), AllFtL(), AllFtR(), EdgeFoot('L'), EdgeFoot('R')]
+# Traditional typology
+con = [ParseSyllable('N'), Trochee('N'), Iamb('N'), FtBin('N'), FootLeft('N'), FootRight('N'), NonFinality('N'), FootFoot('N'), HdPrWd('N'), AllFtL(), AllFtR()]
 
-# Directional typology!
+# Directional typology
 #con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R'), FootLeft('L'), FootLeft('R'), FootRight('L'), FootRight('R'), NonFinality('L'), NonFinality('R'), FootFoot('L'), FootFoot('R'), HdPrWd('L'), HdPrWd('R')]
 
 # Left-to-right constraints
 #con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Iamb('L'), FtBin('L'), FootLeft('L'), FootRight('L'), NonFinality('L'), FootFoot('L'), HdPrWd('L')]
 
 # Right-to-left constraints
-con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('R'), Iamb('R'), FtBin('R'), FootLeft('R'), FootRight('R'), NonFinality('R'), FootFoot('R'), HdPrWd('R')]
+#con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('R'), Iamb('R'), FtBin('R'), FootLeft('R'), FootRight('R'), NonFinality('R'), FootFoot('R'), HdPrWd('R')]
 
 typology = []
 
@@ -137,21 +136,25 @@ for language in sorted(typology):
 	if stress_tup not in stress_gram:
 		stress_gram[stress_tup] = []
 
+	# for traditional typology
+	direction_matters = [True for c in con]
+	constraint_names = [c.name for c in con]
+
 	# can constraints be collapsed for this language
-	direction_matters = []
-	constraint_names = []
-	for i in range(0, len(con) - 1, 2):
-		matters = False
-		for erc in language[0]:
-			if erc[i] != erc[i+1]:
-				matters = True
-				break
-		if matters:
-			direction_matters += [True, True]
-			constraint_names += [con[i].name, con[i+1].name]
-		else:
-			direction_matters += [False, False]
-			constraint_names += [con[i].name[:-1] + 'L/R']
+#	direction_matters = []
+#	constraint_names = []
+#	for i in range(0, len(con) - 1, 2):
+#		matters = False
+#		for erc in language[0]:
+#			if erc[i] != erc[i+1]:
+#				matters = True
+#				break
+#		if matters:
+#			direction_matters += [True, True]
+#			constraint_names += [con[i].name, con[i+1].name]
+#		else:
+#			direction_matters += [False, False]
+#			constraint_names += [con[i].name[:-1] + 'L/R']
 
 	# get derivation string
 	deriv_str = ''
