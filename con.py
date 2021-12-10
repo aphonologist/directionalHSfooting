@@ -23,7 +23,7 @@ class ParseSyllable:
 		return loci
 
 # Trochee
-# penalizes disyllabic iambs (iI)
+# penalizes disyllabic iambs (iI) / (yY)
 class Trochee:
 	def __init__(self, direction):
 		self.direction = direction
@@ -35,20 +35,20 @@ class Trochee:
 		loci = [0] * len(candidate)
 		if self.direction == 'L':
 			for i in range(len(candidate) - 1):
-				if candidate[i:i+2] == 'iI':
+				if candidate[i:i+2] in ('iI', 'yY'):
 					loci[i+1] = 1
 		elif self.direction == 'R':
 			candidate = candidate[::-1]
 			for i in range(len(candidate) - 1):
-				if candidate[i:i+2] == 'Ii':
+				if candidate[i:i+2] in ('Ii', 'Yy'):
 					loci[i+1] = 1
 		elif self.direction == 'N':
-			loci = [candidate.count('iI')]
+			loci = [candidate.count('iI') + candidate.count('yY')]
 
 		return loci
 
 # Iamb
-# penalizes disyllabic trochees (Tt) and unary feet (F)
+# penalizes disyllabic trochees (Tt)/(Dd) and unary feet (F)
 class Iamb:
 	def __init__(self, direction):
 		self.direction = direction
@@ -60,7 +60,7 @@ class Iamb:
 		loci = [0] * len(candidate)
 		if self.direction == 'L':
 			for i in range(len(candidate) - 1):
-				if candidate[i:i+2] == 'Tt':
+				if candidate[i:i+2] in ['Tt', 'Dd']:
 					loci[i+1] = 1
 			for i in range(len(candidate)):
 				if candidate[i] == 'F':
@@ -68,18 +68,68 @@ class Iamb:
 		elif self.direction == 'R':
 			candidate = candidate[::-1]
 			for i in range(len(candidate) - 1):
-				if candidate[i:i+2] == 'tT':
+				if candidate[i:i+2] in ['tT', 'dD']:
 					loci[i+1] = 1
 			for i in range(len(candidate)):
 				if candidate[i] == 'F':
 					loci[i] = 1
 		elif self.direction == 'N':
-			loci = [candidate.count('Tt') + candidate.count('F')]
+			loci = [candidate.count('Tt') + candidate.count('Dd') + candidate.count('F')]
+
+		return loci
+
+# TrocheeNonMin
+# penalizes right-headed internally layered feet (d(Dd)) / (y(yY))
+class TrocheeNonMin:
+	def __init__(self, direction):
+		self.direction = direction
+		self.name = 'TrocheeNonMin'
+		if direction != 'N':
+			self.name += direction
+
+	def vios(self, candidate):
+		loci = [0] * len(candidate)
+		if self.direction == 'L':
+			for i in range(len(candidate) - 2):
+				if candidate[i:i+3] in ('dDd', 'yyY'):
+					loci[i+1] = 1
+		elif self.direction == 'R':
+			candidate = candidate[::-1]
+			for i in range(len(candidate) - 2):
+				if candidate[i:i+3] in ('dDd', 'Yyy'):
+					loci[i+1] = 1
+		elif self.direction == 'N':
+			loci = [candidate.count('dDd') + candidate.count('yyY')]
+
+		return loci
+
+# IambNonMin
+# penalizes left-headed internally layered feet ((Dd)d) / ((yY)y)
+class IambNonMin:
+	def __init__(self, direction):
+		self.direction = direction
+		self.name = 'IambNonMin'
+		if direction != 'N':
+			self.name += direction
+
+	def vios(self, candidate):
+		loci = [0] * len(candidate)
+		if self.direction == 'L':
+			for i in range(len(candidate) - 2):
+				if candidate[i:i+3] in ('Ddd', 'yYy'):
+					loci[i+1] = 1
+		elif self.direction == 'R':
+			candidate = candidate[::-1]
+			for i in range(len(candidate) - 2):
+				if candidate[i:i+3] in ('ddD', 'yYy'):
+					loci[i+1] = 1
+		elif self.direction == 'N':
+			loci = [candidate.count('Ddd') + candidate.count('yYy')]
 
 		return loci
 
 # FtBin
-# penalizes monosyllabic feet (U)
+# penalizes monosyllabic feet (F)
 class FtBin:
 	def __init__(self, direction):
 		self.direction = direction
@@ -99,8 +149,26 @@ class FtBin:
 
 		return loci
 
+# InitialGridMark
+# assign a violation if the leftmost syllable is unstressed
+class InitialGridMark:
+	def __init__(self, direction):
+		self.direction = direction
+		self.name = 'InitialGridMark'
+		if direction != 'N':
+			self.name += direction
+
+	def vios(self, candidate):
+		loci = [0] * len(candidate)
+		if candidate[0] in ['s', 'i', 't', 'd', 'y']:
+			loci[0] = 1
+
+		if self.direction == 'N': return [sum(loci)]
+		if self.direction == 'R': return loci[::-1]
+		return loci
+
 # FootLeft
-# assign a violation if the leftmost syllable is unfooted
+# assign a violation if the rightmost syllable is unfooted
 class FootLeft:
 	def __init__(self, direction):
 		self.direction = direction
@@ -153,7 +221,7 @@ class NonFinality:
 		if self.direction == 'R': return loci[::-1]
 		return loci
 
-# Hd(prwd)
+# Hd(PrWd)
 # assign a violation if there are no feet
 class HdPrWd:
 	def __init__(self, direction):
@@ -166,7 +234,7 @@ class HdPrWd:
 		loci = [0]
 		footless = True
 		for syllable in candidate:
-			if syllable in ['F', 'i', 'T']:
+			if syllable in ['F', 'i', 'T', 'Y', 'D']:
 				footless = False
 				break
 		if footless:

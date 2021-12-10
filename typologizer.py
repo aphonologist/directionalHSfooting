@@ -19,10 +19,21 @@ def leq(v1, v2):
 urs = ['s' * i for i in range(2, 10)]
 
 # Traditional typology
-con = [ParseSyllable('N'), Trochee('N'), Iamb('N'), FtBin('N'), FootLeft('N'), FootRight('N'), NonFinality('N'), FootFoot('N'), HdPrWd('N'), AllFtL(), AllFtR()]
+#con = [ParseSyllable('N'), Trochee('N'), Iamb('N'), FtBin('N'), FootLeft('N'), FootRight('N'), NonFinality('N'), FootFoot('N'), HdPrWd('N'), AllFtL(), AllFtR()]
 
 # Directional typology
-#con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R'), FootLeft('L'), FootLeft('R'), FootRight('L'), FootRight('R'), NonFinality('L'), NonFinality('R'), FootFoot('L'), FootFoot('R'), HdPrWd('L'), HdPrWd('R')]
+#con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R'), InitialGridMark('L'), InitialGridMark('R'), FootRight('L'), FootRight('R'), NonFinality('L'), NonFinality('R'), FootFoot('L'), FootFoot('R'), HdPrWd('L'), HdPrWd('R')]
+
+# Directional typology with ILT
+con = [ParseSyllable('L'), ParseSyllable('R'),
+	Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'),
+	TrocheeNonMin('L'), TrocheeNonMin('R'),
+	IambNonMin('L'), IambNonMin('R'),
+	FtBin('L'), FtBin('R'),
+	InitialGridMark('L'), InitialGridMark('R'),
+	FootRight('L'), FootRight('R'),
+	NonFinality('L'), NonFinality('R'),
+	HdPrWd('L'), HdPrWd('R')]
 
 # Left-to-right constraints
 #con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Iamb('L'), FtBin('L'), FootLeft('L'), FootRight('L'), NonFinality('L'), FootFoot('L'), HdPrWd('L')]
@@ -129,32 +140,37 @@ for language in sorted(typology):
 	stress = []
 	feet = '\t'
 	for derivation in language[1:]:
-		stress.append(derivation[-1].replace('F','S').replace('T','S').replace('I','S').replace('t','s').replace('i','s'))
+		rhythm = derivation[-1]
+		for stressed_syllable in ['F', 'T', 'D', 'I', 'Y']:
+			rhythm = rhythm.replace(stressed_syllable, 'S')
+		for unstressed_syllable in ['t', 'd', 'i', 'y']:
+			rhythm = rhythm.replace(unstressed_syllable, 's')
+		stress.append(rhythm)
 		feet += derivation[-1] + '\t'
 	feet += '\n'
 	stress_tup = tuple(stress)
 	if stress_tup not in stress_gram:
 		stress_gram[stress_tup] = []
 
-	# for traditional typology
-	direction_matters = [True for c in con]
-	constraint_names = [c.name for c in con]
-
 	# can constraints be collapsed for this language
-#	direction_matters = []
-#	constraint_names = []
-#	for i in range(0, len(con) - 1, 2):
-#		matters = False
-#		for erc in language[0]:
-#			if erc[i] != erc[i+1]:
-#				matters = True
-#				break
-#		if matters:
-#			direction_matters += [True, True]
-#			constraint_names += [con[i].name, con[i+1].name]
-#		else:
-#			direction_matters += [False, False]
-#			constraint_names += [con[i].name[:-1] + 'L/R']
+	direction_matters = []
+	constraint_names = []
+	for i in range(0, len(con) - 1, 2):
+		matters = False
+		for erc in language[0]:
+			if erc[i] != erc[i+1]:
+				matters = True
+				break
+		if matters:
+			direction_matters += [True, True]
+			constraint_names += [con[i].name, con[i+1].name]
+		else:
+			direction_matters += [False, False]
+			constraint_names += [con[i].name[:-1] + 'L/R']
+
+	# for traditional typology
+#	direction_matters = [True for c in con]
+#	constraint_names = [c.name for c in con]
 
 	# get derivation string
 	deriv_str = ''
@@ -178,7 +194,7 @@ for language in sorted(typology):
 	stress_gram[stress_tup].append([feet, deriv_str, con_str])
 
 for s in sorted(stress_gram, key=lambda x:[sum(y.count('S') for y in x), x], reverse=True):
-	print(s)
+	print(','.join(s))
 	for g in sorted(stress_gram[s]):
 		for x in g:
 			print(x)
