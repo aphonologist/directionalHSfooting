@@ -277,7 +277,7 @@ class AllFtL:
 		loci = 0
 		for i in range(len(candidate)):
 			if candidate[i] in ['F', 'T', 'i']:
-				loci += (i - 1)
+				loci += i
 		return [loci]
 
 # AllFt-R: For each foot in a word assign one violation for every syllable separating it from the right edge of the word
