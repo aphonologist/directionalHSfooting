@@ -1,6 +1,7 @@
 #import sys
 from con import *
 from gen import gen_foot as gen
+#from gen import gen_foot_parallel as gen
 #from tablO import tablO
 from fred import FRed
 
@@ -18,22 +19,46 @@ def leq(v1, v2):
 
 urs = ['s' * i for i in range(2, 10)]
 
+traditional = True
+
 # Traditional typology
-#con = [ParseSyllable('N'), Trochee('N'), Iamb('N'), FtBin('N'), FootLeft('N'), FootRight('N'), NonFinality('N'), FootFoot('N'), HdPrWd('N'), AllFtL(), AllFtR()]
+con = [
+	ParseSyllable('N'),
+	Trochee('N'),
+	Iamb('N'),
+#	FtBin('N'),
+	FootLeft('N'),
+	FootRight('N'),
+	NonFinality('N'),
+	FootFoot('N'),
+	HdPrWd('N'),
+	AllFtL(),
+	AllFtR()
+	]
 
 # Directional typology
-#con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'), FtBin('L'), FtBin('R'), InitialGridMark('L'), InitialGridMark('R'), FootRight('L'), FootRight('R'), NonFinality('L'), NonFinality('R'), FootFoot('L'), FootFoot('R'), HdPrWd('L'), HdPrWd('R')]
+con = [
+#	ParseSyllable('L'), ParseSyllable('R'),
+#	Trochee('L'), Trochee('R'),
+#	Iamb('L'), Iamb('R'),
+#	FtBin('L'), FtBin('R'),
+#	FootLeft('L'), FootLeft('R'),
+#	FootRight('L'), FootRight('R'),
+#	NonFinality('L'), NonFinality('R'),
+#	FootFoot('L'), FootFoot('R'),
+#	HdPrWd('L'), HdPrWd('R')
+#	]
 
 # Directional typology with ILT
-con = [ParseSyllable('L'), ParseSyllable('R'),
-	Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'),
-	TrocheeNonMin('L'), TrocheeNonMin('R'),
-	IambNonMin('L'), IambNonMin('R'),
-	FtBin('L'), FtBin('R'),
-	InitialGridMark('L'), InitialGridMark('R'),
-	FootRight('L'), FootRight('R'),
-	NonFinality('L'), NonFinality('R'),
-	HdPrWd('L'), HdPrWd('R')]
+#con = [ParseSyllable('L'), ParseSyllable('R'),
+#	Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'),
+#	TrocheeNonMin('L'), TrocheeNonMin('R'),
+#	IambNonMin('L'), IambNonMin('R'),
+#	FtBin('L'), FtBin('R'),
+#	InitialGridMark('L'), InitialGridMark('R'),
+#	FootRight('L'), FootRight('R'),
+#	NonFinality('L'), NonFinality('R'),
+#	HdPrWd('L'), HdPrWd('R')]
 
 # Left-to-right constraints
 #con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Iamb('L'), FtBin('L'), FootLeft('L'), FootRight('L'), NonFinality('L'), FootFoot('L'), HdPrWd('L')]
@@ -110,7 +135,8 @@ for ur in urs:
 				newSKB = FRed(combinedSKB)
 				if 'unsat' not in newSKB:
 					newderivation = (newSKB, derivation[1] + (candidates[optimum],))
-					stack.append(newderivation)
+					stack.append(newderivation)		# serial
+				#	derivations.append(newderivation)	# parallel
 
 	# combine derivations with previous derivations
 	# (SKB, derivation, derivation, ...)
@@ -153,24 +179,24 @@ for language in sorted(typology):
 		stress_gram[stress_tup] = []
 
 	# can constraints be collapsed for this language
-	direction_matters = []
-	constraint_names = []
-	for i in range(0, len(con) - 1, 2):
-		matters = False
-		for erc in language[0]:
-			if erc[i] != erc[i+1]:
-				matters = True
-				break
-		if matters:
-			direction_matters += [True, True]
-			constraint_names += [con[i].name, con[i+1].name]
-		else:
-			direction_matters += [False, False]
-			constraint_names += [con[i].name[:-1] + 'L/R']
-
-	# for traditional typology
-#	direction_matters = [True for c in con]
-#	constraint_names = [c.name for c in con]
+	if traditional:
+		direction_matters = [True for c in con]
+		constraint_names = [c.name for c in con]
+	else:
+		direction_matters = []
+		constraint_names = []
+		for i in range(0, len(con) - 1, 2):
+			matters = False
+			for erc in language[0]:
+				if erc[i] != erc[i+1]:
+					matters = True
+					break
+			if matters:
+				direction_matters += [True, True]
+				constraint_names += [con[i].name, con[i+1].name]
+			else:
+				direction_matters += [False, False]
+				constraint_names += [con[i].name[:-1] + 'L/R']
 
 	# get derivation string
 	deriv_str = ''
