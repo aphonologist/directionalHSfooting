@@ -1,7 +1,5 @@
 #import sys
 from con import *
-from gen import gen_foot as gen
-#from gen import gen_foot_parallel as gen
 #from tablO import tablO
 from fred import FRed
 
@@ -19,35 +17,42 @@ def leq(v1, v2):
 
 urs = ['s' * i for i in range(2, 10)]
 
-traditional = True
+parallel = False
+
+if parallel:
+	from gen import gen_foot_parallel as gen
+else:
+	from gen import gen_foot as gen
+
+traditional = False
 
 # Traditional typology
-con = [
-	ParseSyllable('N'),
-	Trochee('N'),
-	Iamb('N'),
+#con = [
+#	ParseSyllable('N'),
+#	Trochee('N'),
+#	Iamb('N'),
 #	FtBin('N'),
-	FootLeft('N'),
-	FootRight('N'),
-	NonFinality('N'),
-	FootFoot('N'),
-	HdPrWd('N'),
-	AllFtL(),
-	AllFtR()
-	]
+#	FootLeft('N'),
+#	FootRight('N'),
+#	NonFinality('N'),
+#	FootFoot('N'),
+#	HdPrWd('N'),
+#	AllFtL(),
+#	AllFtR()
+#	]
 
 # Directional typology
 con = [
-#	ParseSyllable('L'), ParseSyllable('R'),
-#	Trochee('L'), Trochee('R'),
-#	Iamb('L'), Iamb('R'),
-#	FtBin('L'), FtBin('R'),
-#	FootLeft('L'), FootLeft('R'),
-#	FootRight('L'), FootRight('R'),
-#	NonFinality('L'), NonFinality('R'),
-#	FootFoot('L'), FootFoot('R'),
-#	HdPrWd('L'), HdPrWd('R')
-#	]
+	ParseSyllable('L'), ParseSyllable('R'),
+	Trochee('L'), Trochee('R'),
+	Iamb('L'), Iamb('R'),
+	FtBin('L'), FtBin('R'),
+	FootLeft('L'), FootLeft('R'),
+	FootRight('L'), FootRight('R'),
+	NonFinality('L'), NonFinality('R'),
+	FootFoot('L'), FootFoot('R'),
+	HdPrWd('L'), HdPrWd('R')
+	]
 
 # Directional typology with ILT
 #con = [ParseSyllable('L'), ParseSyllable('R'),
@@ -135,8 +140,10 @@ for ur in urs:
 				newSKB = FRed(combinedSKB)
 				if 'unsat' not in newSKB:
 					newderivation = (newSKB, derivation[1] + (candidates[optimum],))
-					stack.append(newderivation)		# serial
-				#	derivations.append(newderivation)	# parallel
+					if parallel:
+						derivations.append(newderivation)
+					else:
+						stack.append(newderivation)
 
 	# combine derivations with previous derivations
 	# (SKB, derivation, derivation, ...)
