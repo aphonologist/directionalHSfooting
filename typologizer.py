@@ -17,7 +17,7 @@ def leq(v1, v2):
 
 urs = ['s' * i for i in range(2, 10)]
 
-parallel = False
+parallel = True
 
 if parallel:
 	from gen import gen_foot_parallel as gen
@@ -26,33 +26,30 @@ else:
 
 traditional = False
 
-# Traditional typology
-#con = [
-#	ParseSyllable('N'),
-#	Trochee('N'),
-#	Iamb('N'),
-#	FtBin('N'),
-#	FootLeft('N'),
-#	FootRight('N'),
-#	NonFinality('N'),
-#	FootFoot('N'),
-#	HdPrWd('N'),
-#	AllFtL(),
-#	AllFtR()
-#	]
-
-# Directional typology
-con = [
-	ParseSyllable('L'), ParseSyllable('R'),
-	Trochee('L'), Trochee('R'),
-	Iamb('L'), Iamb('R'),
-	FtBin('L'), FtBin('R'),
-	FootLeft('L'), FootLeft('R'),
-	FootRight('L'), FootRight('R'),
-	NonFinality('L'), NonFinality('R'),
-	FootFoot('L'), FootFoot('R'),
-	HdPrWd('L'), HdPrWd('R')
-	]
+if traditional:
+	con = [
+		ParseSyllable('N'),
+		Trochee('N'),
+		Iamb('N'),
+		FootLeft('N'),
+		FootRight('N'),
+		NonFinality('N'),
+		FootFoot('N'),
+		HdPrWd('N'),
+		AllFtL(),
+		AllFtR()
+		]
+else:
+	con = [
+		ParseSyllable('L'), ParseSyllable('R'),
+		Trochee('L'), Trochee('R'),
+		Iamb('L'), Iamb('R'),
+		FootLeft('L'), FootLeft('R'),
+		FootRight('L'), FootRight('R'),
+		NonFinality('L'), NonFinality('R'),
+		FootFoot('L'), FootFoot('R'),
+		HdPrWd('L'), HdPrWd('R')
+		]
 
 # Directional typology with ILT
 #con = [ParseSyllable('L'), ParseSyllable('R'),

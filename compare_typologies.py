@@ -6,8 +6,10 @@ for file in files:
 	typologies[file] = set()
 	f = open(file)
 	for line in f:
-		if not line.startswith('\t'):
-			typologies[file].add(line.rstrip())
+		linstr = line.rstrip()
+		if linstr:
+			if not linstr.startswith('\t'):
+				typologies[file].add(linstr)
 	f.close()
 	print(file, 'contains', len(typologies[file]), 'languages')
 
@@ -26,15 +28,15 @@ for f1 in range(len(files)):
 				for lang in sorted(f1_f2):
 					print('\t', lang.strip())
 
-			print()
-			f = open(file1)
-			state = 0
-			for line in f:
-				linstr = line.rstrip()
-				if state == 0:
-					if linstr in f1_f2:
-						print(linstr)
-						state = 1
+				print()
+				f = open(file1)
+				state = 0
+				for line in f:
+					linstr = line.rstrip()
+					if state == 0:
+						if linstr in f1_f2:
+							print(linstr)
+							state = 1
 					elif state == 1:
 						if ',' not in linstr:
 							print(linstr)
@@ -43,32 +45,33 @@ for f1 in range(len(files)):
 								print(linstr)
 							else:
 								state = 0
-			f.close()
-			print()
+				f.close()
+				print()
 
 			f2_f1 = typologies[file2] - typologies[file1]
 			if f2_f1:
 				print('There are languages in', file2, 'that are not in', file1)
 				for lang in sorted(f2_f1):
 					print('\t', lang.strip())
-			print()
-			f = open(file2)
-			state = 0
-			for line in f:
-				linstr = line.rstrip()
-				if state == 0:
-					if linstr in f2_f1:
-						print(linstr)
-						state = 1
-					elif state == 1:
-						if ',' not in linstr:
+
+				print()
+				f = open(file2)
+				state = 0
+				for line in f:
+					linstr = line.rstrip()
+					if state == 0:
+						if linstr in f2_f1:
 							print(linstr)
-						else:
-							if linstr in f2_f1:
+							state = 1
+					elif state == 1:
+							if ',' not in linstr:
 								print(linstr)
 							else:
-								state = 0
-			f.close()
-			print()
+								if linstr in f2_f1:
+									print(linstr)
+								else:
+									state = 0
+				f.close()
+				print()
 
 		print()

@@ -37,13 +37,21 @@ class Trochee:
 			for i in range(len(candidate) - 1):
 				if candidate[i:i+2] in ('iI', 'yY'):
 					loci[i+1] = 1
+		# test
+			for i in range(len(candidate)):
+				if candidate[i] == 'F':
+					loci[i] = 1
 		elif self.direction == 'R':
 			candidate = candidate[::-1]
 			for i in range(len(candidate) - 1):
 				if candidate[i:i+2] in ('Ii', 'Yy'):
 					loci[i+1] = 1
+		# test
+			for i in range(len(candidate)):
+				if candidate[i] == 'F':
+					loci[i] = 1
 		elif self.direction == 'N':
-			loci = [candidate.count('iI') + candidate.count('yY')]
+			loci = [candidate.count('iI') + candidate.count('yY') + candidate.count('F')]
 
 		return loci
 
