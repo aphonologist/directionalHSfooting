@@ -4,7 +4,7 @@ This repository contains a typology calculator for Harmonic Serialism based on t
 
 *    con.py defines constraints as Classes which can be evaluated traditionally or directionally
 *    fred.py provides a implementation of FRed
-*    gen.py defines the candidate generation function
+*    gen.py defines the candidate generation function, mapping syllables (s) onto trochees (Tt), iambs (iI), and monosyllabic feet (F)
 *    tabIO.py provides a pretty print function for tableaux
 *    typologizer.py is the main module
 

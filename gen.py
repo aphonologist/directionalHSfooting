@@ -4,10 +4,6 @@
 # Tt = disyllabic trochee
 # iI = disyllabic iamb
 # F  = unary foot
-# Ddd = internally layered trochee ((Tt)t)
-# dDd = internally layered trochee (t(Tt))
-# yYy = internally layered iamb ((yY)y)
-# yyY = internally layered iamb (y(yY))
 
 def gen_foot(input):
 	candidates = set([])
@@ -30,20 +26,6 @@ def gen_foot(input):
 			# iambs
 			candidate = input[:i] + "iI" + input[i+2:]
 			candidates.add(candidate)
-
-	# build candidates with internally layered feet
-#	for i in range(len(input) - 2):
-#		if input[i:i+3] == 'sss':
-#			# internal trochees
-#			candidate = input[:i] + 'Ddd' + input[i+3:]
-#			candidates.add(candidate)
-#			candidate = input[:i] + 'dDd' + input[i+3:]
-#			candidates.add(candidate)
-#			# internal iambs
-#			candidate = input[:i] + 'yYy' + input[i+3:]
-#			candidates.add(candidate)
-#			candidate = input[:i] + 'yyY' + input[i+3:]
-#			candidates.add(candidate)
 
 	return sorted(list(candidates))
 
