@@ -1,0 +1,3929 @@
+sS,sSS,sSsS,sSsSS,sSsSsS,sSsSsSS,sSsSsSsS,sSsSsSsSS
+	iI	iIF	iIiI	iIiIF	iIiIiI	iIiIiIF	iIiIiIiI	iIiIiIiIF	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIF]
+	sss -> iIF
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIiIF]
+	sssss -> iIiIF
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIiIiIF]
+	sssssss -> iIiIiIF
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIiIiIiIF]
+	sssssssss -> iIiIiIiIF
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL	*FootFootR	Hd(PrWd)L/R
+	W	e	L	e	e	e	e	L	e	e	
+	W	e	e	e	e	W	L	e	e	e	
+	e	L	W	W	e	e	e	e	e	e	
+	e	e	W	L	e	e	e	W	L	e	
+
+
+sS,SsS,sSsS,SsSsS,sSsSsS,SsSsSsS,sSsSsSsS,SsSsSsSsS
+	iI	FiI	iIiI	FiIiI	iIiIiI	FiIiIiI	iIiIiIiI	FiIiIiIiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FiI]
+	sss -> FiI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[FiIiI]
+	sssss -> FiIiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[FiIiIiI]
+	sssssss -> FiIiIiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[FiIiIiIiI]
+	sssssssss -> FiIiIiIiI
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL	*FootFootR	Hd(PrWd)L/R
+	W	e	e	L	e	e	e	e	L	e	
+	W	e	e	e	e	W	L	e	e	e	
+	e	L	W	W	e	e	e	e	e	e	
+	e	e	L	W	e	e	e	L	W	e	
+
+
+Ss,SsS,SsSs,SsSsS,SsSsSs,SsSsSsS,SsSsSsSs,SsSsSsSsS
+	Tt	TtF	TtTt	TtTtF	TtTtTt	TtTtTtF	TtTtTtTt	TtTtTtTtF	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[TtF]
+	sss -> TtF
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtTtF]
+	sssss -> TtTtF
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtTtTtF]
+	sssssss -> TtTtTtF
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtTtTtTtF]
+	sssssssss -> TtTtTtTtF
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL	*FootFootR	Hd(PrWd)L/R
+	W	L	e	e	e	e	e	L	e	e	
+	W	e	e	e	e	W	L	e	e	e	
+	e	W	L	e	e	e	e	W	L	e	
+	e	W	W	L	e	e	e	e	e	e	
+
+
+Ss,SSs,SsSs,SSsSs,SsSsSs,SSsSsSs,SsSsSsSs,SSsSsSsSs
+	Tt	FTt	TtTt	FTtTt	TtTtTt	FTtTtTt	TtTtTtTt	FTtTtTtTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FTt]
+	sss -> FTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[FTtTt]
+	sssss -> FTtTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[FTtTtTt]
+	sssssss -> FTtTtTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[FTtTtTtTt]
+	sssssssss -> FTtTtTtTt
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL	*FootFootR	Hd(PrWd)L/R
+	W	e	L	e	e	e	e	e	L	e	
+	W	e	e	e	e	W	L	e	e	e	
+	e	L	W	e	e	e	e	L	W	e	
+	e	W	W	L	e	e	e	e	e	e	
+
+
+sS,sSS,sSsS,sSssS,sSsSsS,sSssSsS,sSsSsSsS,sSssSsSsS
+	iI	iIF	iIiI	iIsiI	iIiIiI	iIsiIiI	iIiIiIiI	iIsiIiIiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIF]
+	sss -> iIF
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIsiIiI]
+	sssssss -> iIsiIiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIsiIiIiI]
+	sssssssss -> iIsiIiIiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	L	e	
+	e	L	e	W	L	e	e	e	e	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+
+
+sS,sSS,sSsS,sSssS,sSsSsS,sSsSssS,sSsSsSsS,sSsSsSssS
+	iI	iIF	iIiI	iIsiI	iIiIiI	iIiIsiI	iIiIiIiI	iIiIiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIF]
+	sss -> iIF
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIiIsiI]
+	sssssss -> iIiIsiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIiIiIsiI]
+	sssssssss -> iIiIiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	L	e	e	e	e	e	
+	W	L	L	e	e	e	e	e	L	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+
+
+sS,SsS,sSsS,sSssS,sSsSsS,sSssSsS,sSsSsSsS,sSssSsSsS
+	iI	FiI	iIiI	iIsiI	iIiIiI	iIsiIiI	iIiIiIiI	iIsiIiIiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FiI]
+	sss -> FiI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIsiIiI]
+	sssssss -> iIsiIiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIsiIiIiI]
+	sssssssss -> iIsiIiIiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	L	e	
+	e	L	e	L	W	e	e	e	e	e	
+	e	e	e	e	L	W	e	e	e	e	
+	e	e	e	e	L	e	W	L	e	e	
+
+
+sS,SsS,sSsS,sSssS,sSsSsS,sSsSssS,sSsSsSsS,sSsSsSssS
+	iI	FiI	iIiI	iIsiI	iIiIiI	iIiIsiI	iIiIiIiI	iIiIiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FiI]
+	sss -> FiI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIiIsiI]
+	sssssss -> iIiIsiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIiIiIsiI]
+	sssssssss -> iIiIiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	L	W	e	e	e	e	e	
+	W	L	L	e	e	e	e	e	L	e	
+	e	e	e	e	L	W	e	e	e	e	
+	e	e	e	e	L	e	W	L	e	e	
+
+
+Ss,SsS,SsSs,SssSs,SsSsSs,SssSsSs,SsSsSsSs,SssSsSsSs
+	Tt	TtF	TtTt	TtsTt	TtTtTt	TtsTtTt	TtTtTtTt	TtsTtTtTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[TtF]
+	sss -> TtF
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtsTtTt]
+	sssssss -> TtsTtTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtsTtTtTt]
+	sssssssss -> TtsTtTtTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	L	e	e	e	L	e	
+	e	L	W	L	e	e	e	e	e	e	
+	e	e	L	e	e	W	e	e	e	e	
+	e	e	L	e	e	e	W	L	e	e	
+
+
+Ss,SsS,SsSs,SssSs,SsSsSs,SsSssSs,SsSsSsSs,SsSsSssSs
+	Tt	TtF	TtTt	TtsTt	TtTtTt	TtTtsTt	TtTtTtTt	TtTtTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[TtF]
+	sss -> TtF
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtTtsTt]
+	sssssss -> TtTtsTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtTtTtsTt]
+	sssssssss -> TtTtTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	L	e	e	e	e	e	e	
+	W	L	e	e	L	e	e	e	L	e	
+	e	e	L	e	e	W	e	e	e	e	
+	e	e	L	e	e	e	W	L	e	e	
+
+
+Ss,SSs,SsSs,SssSs,SsSsSs,SssSsSs,SsSsSsSs,SssSsSsSs
+	Tt	FTt	TtTt	TtsTt	TtTtTt	TtsTtTt	TtTtTtTt	TtsTtTtTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FTt]
+	sss -> FTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtsTtTt]
+	sssssss -> TtsTtTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtsTtTtTt]
+	sssssssss -> TtsTtTtTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	L	e	e	e	L	e	
+	e	L	L	W	e	e	e	e	e	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+
+
+Ss,SSs,SsSs,SssSs,SsSsSs,SsSssSs,SsSsSsSs,SsSsSssSs
+	Tt	FTt	TtTt	TtsTt	TtTtTt	TtTtsTt	TtTtTtTt	TtTtTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FTt]
+	sss -> FTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtTtsTt]
+	sssssss -> TtTtsTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtTtTtsTt]
+	sssssssss -> TtTtTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	L	W	e	e	e	e	e	e	
+	W	L	e	e	L	e	e	e	L	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+
+
+sS,ssS,sSsS,ssSsS,sSsSsS,ssSsSsS,sSsSsSsS,ssSsSsSsS
+	iI	siI	iIiI	siIiI	iIiIiI	siIiIiI	iIiIiIiI	siIiIiIiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[siIiI]
+	sssss -> siIiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[siIiIiI]
+	sssssss -> siIiIiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[siIiIiIiI]
+	sssssssss -> siIiIiIiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	L	e	
+	e	L	e	W	e	e	e	e	e	
+	e	W	e	e	e	W	L	e	e	
+
+
+sS,ssS,sSsS,sSssS,sSsSsS,sSssSsS,sSsSsSsS,sSssSsSsS
+	iI	siI	iIiI	iIsiI	iIiIiI	iIsiIiI	iIiIiIiI	iIsiIiIiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIsiIiI]
+	sssssss -> iIsiIiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIsiIiIiI]
+	sssssssss -> iIsiIiIiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	L	e	
+	e	L	e	e	W	e	e	e	e	
+	e	e	e	W	L	e	e	e	e	
+	e	e	e	e	L	W	L	e	e	
+
+
+sS,ssS,sSsS,sSssS,sSsSsS,sSsSssS,sSsSsSsS,sSsSsSssS
+	iI	siI	iIiI	iIsiI	iIiIiI	iIiIsiI	iIiIiIiI	iIiIiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIiIsiI]
+	sssssss -> iIiIsiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIiIiIsiI]
+	sssssssss -> iIiIiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	L	e	e	e	e	
+	L	e	e	e	L	W	L	e	e	
+	W	L	L	e	e	e	e	L	e	
+
+
+sS,sSs,sSsS,sSssS,sSsSsS,sSssSsS,sSsSsSsS,sSssSsSsS
+	iI	iIs	iIiI	iIsiI	iIiIiI	iIsiIiI	iIiIiIiI	iIsiIiIiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIsiIiI]
+	sssssss -> iIsiIiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIsiIiIiI]
+	sssssssss -> iIsiIiIiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	L	e	
+	e	L	e	W	e	L	e	e	e	
+	e	L	e	e	W	L	e	e	e	
+	e	W	e	e	e	W	L	e	e	
+
+
+sS,sSs,sSsS,sSssS,sSsSsS,sSsSssS,sSsSsSsS,sSsSsSssS
+	iI	iIs	iIiI	iIsiI	iIiIiI	iIiIsiI	iIiIiIiI	iIiIiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIiIsiI]
+	sssssss -> iIiIsiI
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIiIiIsiI]
+	sssssssss -> iIiIiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	W	L	e	e	
+	W	L	L	e	e	e	e	L	e	
+	e	e	e	W	e	L	e	e	e	
+	e	e	e	e	W	L	e	e	e	
+
+
+sS,sSs,sSsS,sSsSs,sSsSsS,sSsSsSs,sSsSsSsS,sSsSsSsSs
+	iI	iIs	iIiI	iIiIs	iIiIiI	iIiIiIs	iIiIiIiI	iIiIiIiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[iIiIiI]
+	ssssss -> iIiIiI
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[iIiIiIiI]
+	ssssssss -> iIiIiIiI
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	e	e	e	e	e	
+	W	L	L	e	e	L	L	L	e	
+
+
+sS,SsS,sSsS,sSssS,sSsSsS,sSssSsS,sSssSssS,sSssSsSsS
+	iI	FsF	iIsF	iIsiI	iIsFsF	iIsiIsF	iIsiIsiI	iIsiIsFsF	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[iIsF]
+	ssss -> iIsF
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIsFsF]
+	ssssss -> iIsFsF
+	/sssssss/	[iIsiIsF]
+	sssssss -> iIsiIsF
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIsFsF]
+	sssssssss -> iIsiIsFsF
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	W	L	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	e	L	e	e	e	e	e	
+	e	e	L	W	e	e	e	e	e	
+
+
+sS,SsS,SssS,sSssS,SsSssS,SssSssS,sSssSssS,SsSssSssS
+	iI	FsF	FsiI	iIsiI	FsFsiI	FsiIsiI	iIsiIsiI	FsFsiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[FsiI]
+	ssss -> FsiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[FsFsiI]
+	ssssss -> FsFsiI
+	/sssssss/	[FsiIsiI]
+	sssssss -> FsiIsiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[FsFsiIsiI]
+	sssssssss -> FsFsiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	W	e	e	e	W	L	e	e	
+	e	e	L	W	e	e	e	e	e	
+
+
+Ss,sSs,sSSs,sSsSs,sSsSSs,sSsSsSs,sSsSsSSs,sSsSsSsSs
+	Fs	iIs	iIFs	iIiIs	iIiIFs	iIiIiIs	iIiIiIFs	iIiIiIiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIFs]
+	ssss -> iIFs
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[iIiIFs]
+	ssssss -> iIiIFs
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[iIiIiIFs]
+	ssssssss -> iIiIiIFs
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL	*FootFootR	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	e	
+	W	e	L	e	e	e	e	L	e	e	
+	e	L	W	W	e	e	e	e	e	e	
+	e	e	W	L	e	e	e	W	L	e	
+
+
+Ss,sSs,SsSs,sSsSs,SsSsSs,sSsSsSs,SsSsSsSs,sSsSsSsSs
+	Fs	iIs	FiIs	iIiIs	FiIiIs	iIiIiIs	FiIiIiIs	iIiIiIiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[FiIs]
+	ssss -> FiIs
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[FiIiIs]
+	ssssss -> FiIiIs
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[FiIiIiIs]
+	ssssssss -> FiIiIiIs
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL	*FootFootR	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	e	
+	W	e	e	L	e	e	e	e	L	e	
+	e	L	W	W	e	e	e	e	e	e	
+	e	e	L	W	e	e	e	L	W	e	
+
+	Tt	sTt	TtTt	sTtTt	TtTtTt	sTtTtTt	TtTtTtTt	sTtTtTtTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[sTtTt]
+	sssss -> sTtTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[sTtTtTt]
+	sssssss -> sTtTtTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[sTtTtTtTt]
+	sssssssss -> sTtTtTtTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	L	e	
+	e	L	W	e	e	e	e	e	e	
+	e	W	e	e	e	W	L	e	e	
+
+
+Ss,sSs,SsSs,SssSs,SsSsSs,SssSsSs,SsSsSsSs,SssSsSsSs
+	Tt	sTt	TtTt	TtsTt	TtTtTt	TtsTtTt	TtTtTtTt	TtsTtTtTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtsTtTt]
+	sssssss -> TtsTtTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtsTtTtTt]
+	sssssssss -> TtsTtTtTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	L	e	
+	e	L	e	e	W	e	e	e	e	
+	e	e	W	e	L	e	e	e	e	
+	e	e	e	e	L	W	L	e	e	
+
+
+Ss,sSs,SsSs,SssSs,SsSsSs,SsSssSs,SsSsSsSs,SsSsSssSs
+	Tt	sTt	TtTt	TtsTt	TtTtTt	TtTtsTt	TtTtTtTt	TtTtTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtTtsTt]
+	sssssss -> TtTtsTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtTtTtsTt]
+	sssssssss -> TtTtTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	L	e	e	e	e	
+	L	e	e	e	L	W	L	e	e	
+	W	L	e	L	e	e	e	L	e	
+
+
+Ss,Sss,SsSs,SssSs,SsSsSs,SssSsSs,SsSsSsSs,SssSsSsSs
+	Tt	Tts	TtTt	TtsTt	TtTtTt	TtsTtTt	TtTtTtTt	TtsTtTtTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtsTtTt]
+	sssssss -> TtsTtTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtsTtTtTt]
+	sssssssss -> TtsTtTtTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	L	e	
+	e	L	W	e	e	L	e	e	e	
+	e	L	e	e	W	L	e	e	e	
+	e	W	e	e	e	W	L	e	e	
+
+
+Ss,Sss,SsSs,SssSs,SsSsSs,SsSssSs,SsSsSsSs,SsSsSssSs
+	Tt	Tts	TtTt	TtsTt	TtTtTt	TtTtsTt	TtTtTtTt	TtTtTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtTtsTt]
+	sssssss -> TtTtsTt
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtTtTtsTt]
+	sssssssss -> TtTtTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	W	L	e	e	
+	W	L	e	L	e	e	e	L	e	
+	e	e	W	e	e	L	e	e	e	
+	e	e	e	e	W	L	e	e	e	
+
+
+Ss,Sss,SsSs,SsSss,SsSsSs,SsSsSss,SsSsSsSs,SsSsSsSss
+	Fs	Tts	TtFs	TtTts	TtTtFs	TtTtTts	TtTtTtFs	TtTtTtTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[TtFs]
+	ssss -> TtFs
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[TtTtFs]
+	ssssss -> TtTtFs
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[TtTtTtFs]
+	ssssssss -> TtTtTtFs
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL	*FootFootR	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	e	
+	W	L	e	e	e	e	e	L	e	e	
+	e	W	L	e	e	e	e	W	L	e	
+	e	W	W	L	e	e	e	e	e	e	
+
+	Tt	Tts	TtTt	TtTts	TtTtTt	TtTtTts	TtTtTtTt	TtTtTtTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[TtTtTt]
+	ssssss -> TtTtTt
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[TtTtTtTt]
+	ssssssss -> TtTtTtTt
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	e	e	e	e	e	
+	W	L	e	L	e	L	L	L	e	
+
+
+Ss,Sss,SSss,SsSss,SSsSss,SsSsSss,SSsSsSss,SsSsSsSss
+	Fs	Tts	FTts	TtTts	FTtTts	TtTtTts	FTtTtTts	TtTtTtTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[FTts]
+	ssss -> FTts
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[FTtTts]
+	ssssss -> FTtTts
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[FTtTtTts]
+	ssssssss -> FTtTtTts
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL	*FootFootR	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	e	
+	W	e	L	e	e	e	e	e	L	e	
+	e	L	W	e	e	e	e	L	W	e	
+	e	W	W	L	e	e	e	e	e	e	
+
+
+Ss,SsS,SssS,SssSs,SssSsS,SssSssS,SssSssSs,SssSssSsS
+	Tt	FsF	TtsF	TtsTt	TtsFsF	TtsTtsF	TtsTtsTt	TtsTtsFsF	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[TtsF]
+	ssss -> TtsF
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtsFsF]
+	ssssss -> TtsFsF
+	/sssssss/	[TtsTtsF]
+	sssssss -> TtsTtsF
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtsFsF]
+	sssssssss -> TtsTtsFsF
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	W	L	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	
+	e	e	W	L	e	e	e	e	e	
+
+
+Ss,SsS,SsSs,SssSs,SsSsSs,SsSssSs,SssSssSs,SsSsSssSs
+	Tt	FsF	FsTt	TtsTt	FsFsTt	FsTtsTt	TtsTtsTt	FsFsTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[FsTt]
+	ssss -> FsTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[FsFsTt]
+	ssssss -> FsFsTt
+	/sssssss/	[FsTtsTt]
+	sssssss -> FsTtsTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[FsFsTtsTt]
+	sssssssss -> FsFsTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	W	e	e	e	W	L	e	e	
+	e	e	W	L	e	e	e	e	e	
+
+
+sS,ssS,SssS,sSssS,ssSssS,SssSssS,sSssSssS,ssSssSssS
+	iI	siI	FsiI	iIsiI	siIsiI	FsiIsiI	iIsiIsiI	siIsiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[FsiI]
+	ssss -> FsiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[siIsiI]
+	ssssss -> siIsiI
+	/sssssss/	[FsiIsiI]
+	sssssss -> FsiIsiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[siIsiIsiI]
+	sssssssss -> siIsiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	W	e	e	e	W	L	e	e	
+	e	e	L	W	e	e	e	e	e	
+
+
+sS,sSs,ssSs,sSsSs,ssSsSs,sSsSsSs,ssSsSsSs,sSsSsSsSs
+	iI	iIs	siIs	iIiIs	siIiIs	iIiIiIs	siIiIiIs	iIiIiIiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[siIiIs]
+	ssssss -> siIiIs
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[siIiIiIs]
+	ssssssss -> siIiIiIs
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	L	e	
+	e	L	e	e	e	L	W	e	e	
+	e	e	e	W	e	e	L	e	e	
+	e	e	e	e	e	e	L	e	W	
+
+
+sS,sSs,sSss,sSsSs,sSssSs,sSsSsSs,sSssSsSs,sSsSsSsSs
+	iI	iIs	iIss	iIiIs	iIsiIs	iIiIiIs	iIsiIiIs	iIiIiIiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[iIsiIiIs]
+	ssssssss -> iIsiIiIs
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	L	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	e	e	W	e	e	L	e	e	
+	e	e	e	e	W	e	L	e	W	
+
+
+sS,sSs,sSss,sSsSs,sSsSss,sSsSsSs,sSsSsSss,sSsSsSsSs
+	iI	iIs	iIss	iIiIs	iIiIss	iIiIiIs	iIiIiIss	iIiIiIiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[iIiIss]
+	ssssss -> iIiIss
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[iIiIiIss]
+	ssssssss -> iIiIiIss
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	
+	W	L	L	e	e	e	e	L	e	
+	e	e	e	W	e	e	L	e	e	
+	e	e	e	e	W	e	L	e	W	
+
+
+sS,sSs,sSsS,sSssS,sSssSs,sSssSsS,sSssSssS,sSssSssSs
+	iI	iIs	iIsF	iIsiI	iIsiIs	iIsiIsF	iIsiIsiI	iIsiIsiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIsF]
+	ssss -> iIsF
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIsiIsF]
+	sssssss -> iIsiIsF
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	W	e	
+	W	L	e	L	e	L	L	e	e	
+	e	e	L	W	e	e	e	e	e	
+
+
+sS,sSS,sSsS,sSssS,sSsssS,sSssssS,sSssSssS,sSsssSssS
+	iI	iIF	iIiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIssiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIF]
+	sss -> iIF
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIssiIsiI]
+	sssssssss -> iIssiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	e	
+	e	L	e	e	e	e	e	e	W	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+	e	e	e	W	L	e	e	e	L	e	
+
+
+sS,sSS,sSsS,sSssS,sSsssS,sSssssS,sSssSssS,sSssSsssS
+	iI	iIF	iIiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIsiIssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIF]
+	sss -> iIF
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIssiI]
+	sssssssss -> iIsiIssiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+	e	e	e	W	L	e	e	e	L	e	
+
+
+sS,SsS,sSsS,sSssS,sSsssS,sSssssS,sSssSssS,sSsssSssS
+	iI	FiI	iIiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIssiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FiI]
+	sss -> FiI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIssiIsiI]
+	sssssssss -> iIssiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	e	
+	e	L	e	e	e	e	e	e	W	e	
+	e	e	e	L	W	e	e	e	L	e	
+	e	e	e	e	L	W	e	e	e	e	
+	e	e	e	e	L	e	W	L	e	e	
+
+	iI	FsF	iIsF	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIssiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[iIsF]
+	ssss -> iIsF
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIssiIsiI]
+	sssssssss -> iIssiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	e	
+	e	L	e	W	L	e	e	e	e	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+	e	e	e	L	e	e	e	e	W	e	
+
+
+sS,SsS,sSsS,sSssS,sSsssS,sSssssS,sSssSssS,sSssSsssS
+	iI	FiI	iIiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIsiIssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FiI]
+	sss -> FiI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIssiI]
+	sssssssss -> iIsiIssiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	e	
+	e	e	e	L	W	e	e	e	L	e	
+	e	e	e	e	L	W	e	e	e	e	
+	e	e	e	e	L	e	W	L	e	e	
+
+	iI	FsF	iIsF	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIsiIssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[iIsF]
+	ssss -> iIsF
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIssiI]
+	sssssssss -> iIsiIssiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	L	e	e	e	e	e	
+	W	L	L	e	e	e	e	e	e	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+	e	e	e	L	e	e	e	e	W	e	
+
+
+sS,SsS,SssS,sSssS,sSsssS,sSssssS,sSssSssS,sSsssSssS
+	iI	FsF	FsiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIssiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[FsiI]
+	ssss -> FsiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIssiIsiI]
+	sssssssss -> iIssiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	e	
+	e	L	e	L	W	e	e	e	e	e	
+	e	e	e	e	L	W	e	e	e	e	
+	e	e	e	e	L	e	W	L	e	e	
+	e	e	e	e	L	e	e	e	W	e	
+
+
+sS,SsS,SssS,sSssS,sSsssS,sSssssS,sSssSssS,sSssSsssS
+	iI	FsF	FsiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIsiIssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[FsiI]
+	ssss -> FsiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIssiI]
+	sssssssss -> iIsiIssiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	L	W	e	e	e	e	e	
+	W	L	L	e	e	e	e	e	e	e	
+	e	e	e	e	L	W	e	e	e	e	
+	e	e	e	e	L	e	W	L	e	e	
+	e	e	e	e	L	e	e	e	W	e	
+
+
+Ss,sSs,ssSs,sSsSs,ssSsSs,sSsSsSs,ssSsSsSs,sSsSsSsSs
+	Fs	iIs	siIs	iIiIs	siIiIs	iIiIiIs	siIiIiIs	iIiIiIiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[siIiIs]
+	ssssss -> siIiIs
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[siIiIiIs]
+	ssssssss -> siIiIiIs
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	L	e	
+	e	L	e	W	e	e	e	e	e	
+	e	e	e	L	e	L	W	e	e	
+	e	e	e	L	e	e	e	e	W	
+
+
+Ss,sSs,sSss,sSsSs,sSssSs,sSsSsSs,sSssSsSs,sSsSsSsSs
+	Fs	iIs	iIss	iIiIs	iIsiIs	iIiIiIs	iIsiIiIs	iIiIiIiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[iIsiIiIs]
+	ssssssss -> iIsiIiIs
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	L	e	
+	e	L	e	W	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	e	e	L	W	e	e	e	W	
+	e	e	e	L	e	L	W	e	e	
+
+
+Ss,sSs,sSss,sSsSs,sSsSss,sSsSsSs,sSsSsSss,sSsSsSsSs
+	Fs	iIs	iIss	iIiIs	iIiIss	iIiIiIs	iIiIiIss	iIiIiIiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[iIiIss]
+	ssssss -> iIiIss
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[iIiIiIss]
+	ssssssss -> iIiIiIss
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	e	e	e	e	e	
+	W	L	L	e	e	e	e	L	e	
+	e	e	e	L	W	e	e	e	W	
+	e	e	e	L	e	L	W	e	e	
+
+
+Ss,sSs,SsSs,SssSs,sSssSs,SsSssSs,SssSssSs,sSssSssSs
+	Fs	iIs	FsFs	FsiIs	iIsiIs	FsFsiIs	FsiIsiIs	iIsiIsiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[FsFs]
+	ssss -> FsFs
+	/sssss/	[FsiIs]
+	sssss -> FsiIs
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[FsFsiIs]
+	sssssss -> FsFsiIs
+	/ssssssss/	[FsiIsiIs]
+	ssssssss -> FsiIsiIs
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	L	W	e	e	e	e	e	
+
+	Tt	sTt	FsTt	TtsTt	sTtsTt	FsTtsTt	TtsTtsTt	sTtsTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[FsTt]
+	ssss -> FsTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[sTtsTt]
+	ssssss -> sTtsTt
+	/sssssss/	[FsTtsTt]
+	sssssss -> FsTtsTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[sTtsTtsTt]
+	sssssssss -> sTtsTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	W	e	e	e	W	L	e	e	
+	e	e	W	L	e	e	e	e	e	
+
+
+Ss,Sss,sSss,SsSss,sSsSss,SsSsSss,sSsSsSss,SsSsSsSss
+	Fs	Tts	sTts	TtTts	sTtTts	TtTtTts	sTtTtTts	TtTtTtTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[sTtTts]
+	ssssss -> sTtTts
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[sTtTtTts]
+	ssssssss -> sTtTtTts
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	L	e	
+	e	L	W	e	e	e	e	e	e	
+	e	e	L	e	e	L	W	e	e	
+	e	e	L	e	e	e	e	e	W	
+
+	Tt	Tts	sTts	TtTts	sTtTts	TtTtTts	sTtTtTts	TtTtTtTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[sTtTts]
+	ssssss -> sTtTts
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[sTtTtTts]
+	ssssssss -> sTtTtTts
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	L	e	
+	e	L	e	e	e	L	W	e	e	
+	e	e	W	e	e	e	L	e	e	
+	e	e	e	e	e	e	L	e	W	
+
+
+Ss,Sss,Ssss,SsSss,SssSss,SsSsSss,SssSsSss,SsSsSsSss
+	Fs	Tts	Ttss	TtTts	TtsTts	TtTtTts	TtsTtTts	TtTtTtTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[TtsTtTts]
+	ssssssss -> TtsTtTts
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	L	e	
+	e	L	W	e	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	e	L	e	W	e	e	e	W	
+	e	e	L	e	e	L	W	e	e	
+
+	Tt	Tts	Ttss	TtTts	TtsTts	TtTtTts	TtsTtTts	TtTtTtTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[TtsTtTts]
+	ssssssss -> TtsTtTts
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	L	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	e	W	e	e	e	L	e	e	
+	e	e	e	e	W	e	L	e	W	
+
+
+Ss,Sss,Ssss,SsSss,SsSsss,SsSsSss,SsSsSsss,SsSsSsSss
+	Fs	Tts	Ttss	TtTts	TtTtss	TtTtTts	TtTtTtss	TtTtTtTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[TtTtss]
+	ssssss -> TtTtss
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[TtTtTtss]
+	ssssssss -> TtTtTtss
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	e	e	e	e	e	
+	W	L	e	L	e	e	e	L	e	
+	e	e	L	e	W	e	e	e	W	
+	e	e	L	e	e	L	W	e	e	
+
+	Tt	Tts	Ttss	TtTts	TtTtss	TtTtTts	TtTtTtss	TtTtTtTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[TtTtss]
+	ssssss -> TtTtss
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[TtTtTtss]
+	ssssssss -> TtTtTtss
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	
+	W	L	e	L	e	e	e	L	e	
+	e	e	W	e	e	e	L	e	e	
+	e	e	e	e	W	e	L	e	W	
+
+
+Ss,Sss,SssS,SssSs,SssSss,SssSssS,SssSssSs,SssSssSss
+	Tt	Tts	TtsF	TtsTt	TtsTts	TtsTtsF	TtsTtsTt	TtsTtsTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[TtsF]
+	ssss -> TtsF
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtsTtsF]
+	sssssss -> TtsTtsF
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	L	L	e	e	
+	e	e	W	L	e	e	e	e	e	
+
+
+Ss,Sss,SsSs,SsSss,SssSss,SsSsSss,SsSssSss,SssSssSss
+	Fs	Tts	FsFs	FsTts	TtsTts	FsFsTts	FsTtsTts	TtsTtsTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[FsFs]
+	ssss -> FsFs
+	/sssss/	[FsTts]
+	sssss -> FsTts
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[FsFsTts]
+	sssssss -> FsFsTts
+	/ssssssss/	[FsTtsTts]
+	ssssssss -> FsTtsTts
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	W	L	e	e	e	e	e	
+
+
+Ss,SsS,SssS,SssSs,SsssSs,SssssSs,SssSssSs,SsssSssSs
+	Tt	FsF	TtsF	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtssTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[TtsF]
+	ssss -> TtsF
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtssTtsTt]
+	sssssssss -> TtssTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	L	e	e	e	e	e	
+	e	L	W	L	e	e	e	e	e	e	
+	e	e	L	e	e	W	e	e	e	e	
+	e	e	L	e	e	e	W	L	e	e	
+	e	e	L	e	e	e	e	e	W	e	
+
+
+Ss,SsS,SssS,SssSs,SsssSs,SssssSs,SssSssSs,SssSsssSs
+	Tt	FsF	TtsF	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtsTtssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[TtsF]
+	ssss -> TtsF
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtssTt]
+	sssssssss -> TtsTtssTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	L	e	e	e	e	e	e	
+	W	L	e	e	L	e	e	e	e	e	
+	e	e	L	e	e	W	e	e	e	e	
+	e	e	L	e	e	e	W	L	e	e	
+	e	e	L	e	e	e	e	e	W	e	
+
+
+Ss,SsS,SsSs,SssSs,SsssSs,SssssSs,SssSssSs,SsssSssSs
+	Tt	FsF	FsTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtssTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[FsTt]
+	ssss -> FsTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtssTtsTt]
+	sssssssss -> TtssTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	L	e	e	e	e	e	
+	e	L	L	W	e	e	e	e	e	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+	e	e	e	L	e	e	e	e	W	e	
+
+	Tt	TtF	TtTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtssTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[TtF]
+	sss -> TtF
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtssTtsTt]
+	sssssssss -> TtssTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	L	e	e	e	e	e	
+	e	L	e	e	e	e	e	e	W	e	
+	e	e	L	e	e	W	e	e	e	e	
+	e	e	L	e	e	e	W	L	e	e	
+	e	e	W	L	e	e	e	e	L	e	
+
+
+Ss,SsS,SsSs,SssSs,SsssSs,SssssSs,SssSssSs,SssSsssSs
+	Tt	FsF	FsTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtsTtssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[FsTt]
+	ssss -> FsTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtssTt]
+	sssssssss -> TtsTtssTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	L	W	e	e	e	e	e	e	
+	W	L	e	e	L	e	e	e	e	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+	e	e	e	L	e	e	e	e	W	e	
+
+	Tt	TtF	TtTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtsTtssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[TtF]
+	sss -> TtF
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtssTt]
+	sssssssss -> TtsTtssTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	e	W	e	
+	W	L	e	e	L	e	e	e	e	e	
+	e	e	L	e	e	W	e	e	e	e	
+	e	e	L	e	e	e	W	L	e	e	
+	e	e	W	L	e	e	e	e	L	e	
+
+
+Ss,SSs,SsSs,SssSs,SsssSs,SssssSs,SssSssSs,SsssSssSs
+	Tt	FTt	TtTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtssTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FTt]
+	sss -> FTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtssTtsTt]
+	sssssssss -> TtssTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	L	e	e	e	e	e	
+	e	L	e	e	e	e	e	e	W	e	
+	e	e	L	W	e	e	e	e	L	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+
+
+Ss,SSs,SsSs,SssSs,SsssSs,SssssSs,SssSssSs,SssSsssSs
+	Tt	FTt	TtTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtsTtssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FTt]
+	sss -> FTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtssTt]
+	sssssssss -> TtsTtssTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	e	W	e	
+	W	L	e	e	L	e	e	e	e	e	
+	e	e	L	W	e	e	e	e	L	e	
+	e	e	e	L	e	W	e	e	e	e	
+	e	e	e	L	e	e	W	L	e	e	
+
+
+ss,sSs,ssSs,sSsSs,ssSsSs,sSsSsSs,ssSsSsSs,sSsSsSsSs
+	ss	iIs	siIs	iIiIs	siIiIs	iIiIiIs	siIiIiIs	iIiIiIiIs	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[siIiIs]
+	ssssss -> siIiIs
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[siIiIiIs]
+	ssssssss -> siIiIiIs
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	L	e	
+	e	L	e	W	e	e	e	e	L	
+	e	L	e	e	e	L	W	e	L	
+
+
+ss,sSs,sSss,sSsSs,sSssSs,sSsSsSs,sSssSsSs,sSsSsSsSs
+	ss	iIs	iIss	iIiIs	iIsiIs	iIiIiIs	iIsiIiIs	iIiIiIiIs	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[iIsiIiIs]
+	ssssssss -> iIsiIiIs
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	L	e	
+	e	L	e	e	W	e	e	e	e	
+	e	e	e	W	L	e	e	e	L	
+	e	e	e	e	L	L	W	e	L	
+
+
+ss,sSs,sSss,sSsSs,sSsSss,sSsSsSs,sSsSsSss,sSsSsSsSs
+	ss	iIs	iIss	iIiIs	iIiIss	iIiIiIs	iIiIiIss	iIiIiIiIs	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIiIs]
+	sssss -> iIiIs
+	/ssssss/	[iIiIss]
+	ssssss -> iIiIss
+	/sssssss/	[iIiIiIs]
+	sssssss -> iIiIiIs
+	/ssssssss/	[iIiIiIss]
+	ssssssss -> iIiIiIss
+	/sssssssss/	[iIiIiIiIs]
+	sssssssss -> iIiIiIiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	L	e	e	e	L	
+	L	e	e	e	L	L	W	e	L	
+	W	L	L	e	e	e	e	L	e	
+
+
+ss,Sss,sSss,SsSss,sSsSss,SsSsSss,sSsSsSss,SsSsSsSss
+	ss	Tts	sTts	TtTts	sTtTts	TtTtTts	sTtTtTts	TtTtTtTts	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[sTtTts]
+	ssssss -> sTtTts
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[sTtTtTts]
+	ssssssss -> sTtTtTts
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	L	e	
+	e	L	W	e	e	e	e	e	L	
+	e	L	e	e	e	L	W	e	L	
+
+
+ss,Sss,Ssss,SsSss,SssSss,SsSsSss,SssSsSss,SsSsSsSss
+	ss	Tts	Ttss	TtTts	TtsTts	TtTtTts	TtsTtTts	TtTtTtTts	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[TtsTtTts]
+	ssssssss -> TtsTtTts
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	L	e	
+	e	L	e	e	W	e	e	e	e	
+	e	e	W	e	L	e	e	e	L	
+	e	e	e	e	L	L	W	e	L	
+
+
+ss,Sss,Ssss,SsSss,SsSsss,SsSsSss,SsSsSsss,SsSsSsSss
+	ss	Tts	Ttss	TtTts	TtTtss	TtTtTts	TtTtTtss	TtTtTtTts	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtTts]
+	sssss -> TtTts
+	/ssssss/	[TtTtss]
+	ssssss -> TtTtss
+	/sssssss/	[TtTtTts]
+	sssssss -> TtTtTts
+	/ssssssss/	[TtTtTtss]
+	ssssssss -> TtTtTtss
+	/sssssssss/	[TtTtTtTts]
+	sssssssss -> TtTtTtTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	L	e	e	e	L	
+	L	e	e	e	L	L	W	e	L	
+	W	L	e	L	e	e	e	L	e	
+
+
+sS,ssS,sSsS,sSssS,sSsssS,sSssssS,sSssSssS,sSsssSssS
+	iI	siI	iIiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIssiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIssiIsiI]
+	sssssssss -> iIssiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	e	W	L	e	e	e	e	
+	e	e	e	e	L	W	L	e	e	
+	e	e	e	e	W	e	e	L	e	
+
+
+sS,ssS,sSsS,sSssS,sSsssS,sSssssS,sSssSssS,sSssSsssS
+	iI	siI	iIiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIsiIssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIssiI]
+	sssssssss -> iIsiIssiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	
+	e	e	e	W	L	e	e	e	e	
+	e	e	e	e	L	W	L	e	e	
+	e	e	e	e	W	e	e	L	e	
+
+
+sS,sSs,sSsS,sSssS,sSsssS,sSssssS,sSssSssS,sSsssSssS
+	iI	iIs	iIiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIssiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIssiIsiI]
+	sssssssss -> iIssiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	e	W	e	L	e	e	e	
+	e	e	e	e	W	L	e	e	e	
+	e	e	e	e	e	W	L	L	e	
+
+
+sS,sSs,sSsS,sSssS,sSsssS,sSssssS,sSssSssS,sSssSsssS
+	iI	iIs	iIiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIsiIssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIssiI]
+	sssssssss -> iIsiIssiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	
+	e	e	e	W	e	L	e	e	e	
+	e	e	e	e	W	L	e	e	e	
+	e	e	e	e	e	W	L	L	e	
+
+
+Ss,sSs,SsSs,SssSs,SsssSs,SssssSs,SssSssSs,SsssSssSs
+	Tt	sTt	TtTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtssTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtssTtsTt]
+	sssssssss -> TtssTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	W	e	L	e	e	e	e	
+	e	e	e	e	L	W	L	e	e	
+	e	e	e	e	W	e	e	L	e	
+
+
+Ss,sSs,SsSs,SssSs,SsssSs,SssssSs,SssSssSs,SssSsssSs
+	Tt	sTt	TtTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtsTtssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtssTt]
+	sssssssss -> TtsTtssTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	W	e	
+	W	L	e	L	e	e	e	e	e	
+	e	e	W	e	L	e	e	e	e	
+	e	e	e	e	L	W	L	e	e	
+	e	e	e	e	W	e	e	L	e	
+
+
+Ss,Sss,SsSs,SssSs,SsssSs,SssssSs,SssSssSs,SsssSssSs
+	Tt	Tts	TtTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtssTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtssTtsTt]
+	sssssssss -> TtssTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	W	e	e	L	e	e	e	
+	e	e	e	e	W	L	e	e	e	
+	e	e	e	e	e	W	L	L	e	
+
+
+Ss,Sss,SsSs,SssSs,SsssSs,SssssSs,SssSssSs,SssSsssSs
+	Tt	Tts	TtTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtsTtssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtssTt]
+	sssssssss -> TtsTtssTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	e	e	W	e	
+	W	L	e	L	e	e	e	e	e	
+	e	e	W	e	e	L	e	e	e	
+	e	e	e	e	W	L	e	e	e	
+	e	e	e	e	e	W	L	L	e	
+
+
+sS,ssS,sssS,sSssS,ssSssS,sssSssS,sSssSssS,ssSssSssS
+	iI	siI	ssiI	iIsiI	siIsiI	ssiIsiI	iIsiIsiI	siIsiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[ssiI]
+	ssss -> ssiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[siIsiI]
+	ssssss -> siIsiI
+	/sssssss/	[ssiIsiI]
+	sssssss -> ssiIsiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[siIsiIsiI]
+	sssssssss -> siIsiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	e	e	
+	e	L	e	W	e	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	W	e	e	e	W	L	e	e	
+
+
+sS,ssS,sssS,sSssS,sSsssS,sSssssS,sSssSssS,sSsssSssS
+	iI	siI	ssiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIssiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[ssiI]
+	ssss -> ssiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIssiIsiI]
+	sssssssss -> iIssiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	e	e	W	L	e	e	e	e	
+	e	e	e	e	L	W	L	e	e	
+	e	e	e	e	L	e	e	W	e	
+
+
+sS,ssS,sssS,sSssS,sSsssS,sSssssS,sSssSssS,sSssSsssS
+	iI	siI	ssiI	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIsiIssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[ssiI]
+	ssss -> ssiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIssiI]
+	sssssssss -> iIsiIssiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	L	e	e	e	e	
+	L	e	e	e	L	W	L	e	e	
+	L	e	e	e	L	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	
+
+
+sS,sSs,sSss,sSssS,sSsssS,sSssssS,sSssSssS,sSsssSssS
+	iI	iIs	iIss	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIssiIsiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIssiIsiI]
+	sssssssss -> iIssiIsiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	
+	e	L	e	W	e	L	e	e	e	
+	e	L	e	e	W	L	e	e	e	
+	e	L	e	e	e	L	e	W	e	
+	e	W	e	e	e	W	L	e	e	
+
+
+sS,sSs,sSss,sSssS,sSsssS,sSssssS,sSssSssS,sSssSsssS
+	iI	iIs	iIss	iIsiI	iIssiI	iIsssiI	iIsiIsiI	iIsiIssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIssiI]
+	sssssssss -> iIsiIssiI
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	W	L	e	e	
+	W	L	L	e	e	e	e	e	e	
+	e	e	e	W	e	L	e	e	e	
+	e	e	e	e	W	L	e	e	e	
+	e	e	e	e	e	L	e	W	e	
+
+
+sS,sSs,sSss,sSssS,sSssSs,sSssSss,sSssSssS,sSssSssSs
+	iI	iIs	iIss	iIsiI	iIsiIs	iIsiIss	iIsiIsiI	iIsiIsiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIsiIss]
+	sssssss -> iIsiIss
+	/ssssssss/	[iIsiIsiI]
+	ssssssss -> iIsiIsiI
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	e	e	e	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	L	L	e	e	
+
+
+sS,sSS,sSsS,sSssS,sSsssS,sSssssS,sSsssssS,sSssssssS
+	iI	iIF	iIiI	iIsiI	iIssiI	iIsssiI	iIssssiI	iIsssssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIF]
+	sss -> iIF
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIssssiI]
+	ssssssss -> iIssssiI
+	/sssssssss/	[iIsssssiI]
+	sssssssss -> iIsssssiI
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	e	e	e	e	e	
+	e	L	W	L	e	e	e	L	e	
+	e	e	L	e	W	e	e	e	e	
+	e	e	L	e	e	W	L	e	e	
+
+
+sS,SsS,sSsS,sSssS,sSsssS,sSssssS,sSsssssS,sSssssssS
+	iI	FiI	iIiI	iIsiI	iIssiI	iIsssiI	iIssssiI	iIsssssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FiI]
+	sss -> FiI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIssssiI]
+	ssssssss -> iIssssiI
+	/sssssssss/	[iIsssssiI]
+	sssssssss -> iIsssssiI
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	e	e	e	e	e	
+	e	L	L	W	e	e	e	L	e	
+	e	e	e	L	W	e	e	e	e	
+	e	e	e	L	e	W	L	e	e	
+
+	iI	FsF	iIsF	iIsiI	iIssiI	iIsssiI	iIssssiI	iIsssssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[iIsF]
+	ssss -> iIsF
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIssssiI]
+	ssssssss -> iIssssiI
+	/sssssssss/	[iIsssssiI]
+	sssssssss -> iIsssssiI
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	e	e	e	e	e	
+	e	L	W	L	e	e	e	e	e	
+	e	e	L	e	W	e	e	e	e	
+	e	e	L	e	e	W	L	e	e	
+	e	e	L	e	e	e	e	W	e	
+
+
+sS,SsS,SssS,sSssS,sSsssS,sSssssS,sSsssssS,sSssssssS
+	iI	FsF	FsiI	iIsiI	iIssiI	iIsssiI	iIssssiI	iIsssssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[FsiI]
+	ssss -> FsiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIssssiI]
+	ssssssss -> iIssssiI
+	/sssssssss/	[iIsssssiI]
+	sssssssss -> iIsssssiI
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	e	e	e	e	e	
+	e	L	L	W	e	e	e	e	e	
+	e	e	e	L	W	e	e	e	e	
+	e	e	e	L	e	W	L	e	e	
+	e	e	e	L	e	e	e	W	e	
+
+
+Ss,sSs,ssSs,SssSs,sSssSs,ssSssSs,SssSssSs,sSssSssSs
+	Fs	iIs	siIs	FsiIs	iIsiIs	siIsiIs	FsiIsiIs	iIsiIsiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[FsiIs]
+	sssss -> FsiIs
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[siIsiIs]
+	sssssss -> siIsiIs
+	/ssssssss/	[FsiIsiIs]
+	ssssssss -> FsiIsiIs
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	L	W	e	e	e	e	e	
+
+	Tt	sTt	ssTt	TtsTt	sTtsTt	ssTtsTt	TtsTtsTt	sTtsTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[ssTt]
+	ssss -> ssTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[sTtsTt]
+	ssssss -> sTtsTt
+	/sssssss/	[ssTtsTt]
+	sssssss -> ssTtsTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[sTtsTtsTt]
+	sssssssss -> sTtsTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	e	e	
+	e	L	W	e	e	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	W	e	e	e	W	L	e	e	
+
+
+Ss,sSs,ssSs,SssSs,SsssSs,SssssSs,SssSssSs,SsssSssSs
+	Tt	sTt	ssTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtssTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[ssTt]
+	ssss -> ssTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtssTtsTt]
+	sssssssss -> TtssTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	e	W	e	L	e	e	e	e	
+	e	e	e	e	L	W	L	e	e	
+	e	e	e	e	L	e	e	W	e	
+
+
+Ss,sSs,ssSs,SssSs,SsssSs,SssssSs,SssSssSs,SssSsssSs
+	Tt	sTt	ssTt	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtsTtssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[ssTt]
+	ssss -> ssTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtssTt]
+	sssssssss -> TtsTtssTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	L	e	e	e	e	
+	L	e	e	e	L	W	L	e	e	
+	L	e	e	e	L	e	e	W	e	
+	W	L	e	L	e	e	e	e	e	
+
+
+Ss,sSs,sSss,sSsSs,sSssSs,sSssSss,sSssSsSs,sSssSssSs
+	Fs	iIs	iIss	iIsFs	iIsiIs	iIsiIss	iIsiIsFs	iIsiIsiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsFs]
+	sssss -> iIsFs
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIsiIss]
+	sssssss -> iIsiIss
+	/ssssssss/	[iIsiIsFs]
+	ssssssss -> iIsiIsFs
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	e	L	e	e	e	e	e	
+	e	e	L	W	e	e	e	e	e	
+
+
+Ss,Sss,sSss,SsSss,SssSss,sSssSss,SsSssSss,SssSssSss
+	Fs	Tts	sTts	FsTts	TtsTts	sTtsTts	FsTtsTts	TtsTtsTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[FsTts]
+	sssss -> FsTts
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[sTtsTts]
+	sssssss -> sTtsTts
+	/ssssssss/	[FsTtsTts]
+	ssssssss -> FsTtsTts
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	W	L	e	e	e	e	e	
+
+
+Ss,Sss,Ssss,SssSs,SsssSs,SssssSs,SssSssSs,SsssSssSs
+	Tt	Tts	Ttss	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtssTtsTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtssTtsTt]
+	sssssssss -> TtssTtsTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	e	e	
+	e	L	W	e	e	L	e	e	e	
+	e	L	e	e	W	L	e	e	e	
+	e	L	e	e	e	L	e	W	e	
+	e	W	e	e	e	W	L	e	e	
+
+
+Ss,Sss,Ssss,SssSs,SsssSs,SssssSs,SssSssSs,SssSsssSs
+	Tt	Tts	Ttss	TtsTt	TtssTt	TtsssTt	TtsTtsTt	TtsTtssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtssTt]
+	sssssssss -> TtsTtssTt
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	W	L	e	e	
+	W	L	e	L	e	e	e	e	e	
+	e	e	W	e	e	L	e	e	e	
+	e	e	e	e	W	L	e	e	e	
+	e	e	e	e	e	L	e	W	e	
+
+
+Ss,Sss,Ssss,SssSs,SssSss,SssSsss,SssSssSs,SssSssSss
+	Fs	Tts	Ttss	TtsFs	TtsTts	TtsTtss	TtsTtsFs	TtsTtsTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtsFs]
+	sssss -> TtsFs
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtsTtss]
+	sssssss -> TtsTtss
+	/ssssssss/	[TtsTtsFs]
+	ssssssss -> TtsTtsFs
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	
+	e	e	W	L	e	e	e	e	e	
+
+	Tt	Tts	Ttss	TtsTt	TtsTts	TtsTtss	TtsTtsTt	TtsTtsTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtsTtss]
+	sssssss -> TtsTtss
+	/ssssssss/	[TtsTtsTt]
+	ssssssss -> TtsTtsTt
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	e	e	e	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	e	L	e	L	L	e	e	
+
+
+Ss,SsS,SssS,SssSs,SsssSs,SssssSs,SsssssSs,SssssssSs
+	Tt	FsF	TtsF	TtsTt	TtssTt	TtsssTt	TtssssTt	TtsssssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[TtsF]
+	ssss -> TtsF
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtssssTt]
+	ssssssss -> TtssssTt
+	/sssssssss/	[TtsssssTt]
+	sssssssss -> TtsssssTt
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	W	L	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	W	L	L	e	e	e	e	e	
+
+
+Ss,SsS,SsSs,SssSs,SsssSs,SssssSs,SsssssSs,SssssssSs
+	Tt	FsF	FsTt	TtsTt	TtssTt	TtsssTt	TtssssTt	TtsssssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FsF]
+	sss -> FsF
+	/ssss/	[FsTt]
+	ssss -> FsTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtssssTt]
+	ssssssss -> TtssssTt
+	/sssssssss/	[TtsssssTt]
+	sssssssss -> TtsssssTt
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	e	e	e	e	e	
+	e	L	W	L	e	e	e	e	e	
+	e	e	L	e	W	e	e	e	e	
+	e	e	L	e	e	W	L	e	e	
+	e	e	L	e	e	e	e	W	e	
+
+	Tt	TtF	TtTt	TtsTt	TtssTt	TtsssTt	TtssssTt	TtsssssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[TtF]
+	sss -> TtF
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtssssTt]
+	ssssssss -> TtssssTt
+	/sssssssss/	[TtsssssTt]
+	sssssssss -> TtsssssTt
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	W	L	e	e	
+	e	W	L	L	e	e	e	L	e	
+
+
+Ss,SSs,SsSs,SssSs,SsssSs,SssssSs,SsssssSs,SssssssSs
+	Tt	FTt	TtTt	TtsTt	TtssTt	TtsssTt	TtssssTt	TtsssssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[FTt]
+	sss -> FTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtssssTt]
+	ssssssss -> TtssssTt
+	/sssssssss/	[TtsssssTt]
+	sssssssss -> TtsssssTt
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	e	e	e	e	e	
+	e	L	W	L	e	e	e	L	e	
+	e	e	L	e	W	e	e	e	e	
+	e	e	L	e	e	W	L	e	e	
+
+
+sS,ssS,sSsS,sSssS,sSsssS,sSssssS,sSsssssS,sSssssssS
+	iI	siI	iIiI	iIsiI	iIssiI	iIsssiI	iIssssiI	iIsssssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIssssiI]
+	ssssssss -> iIssssiI
+	/sssssssss/	[iIsssssiI]
+	sssssssss -> iIsssssiI
+
+	ParseSyllableL/R	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	e	e	e	e	
+	e	L	e	W	e	e	L	e	
+	e	e	W	L	e	e	e	e	
+	e	e	e	L	W	L	e	e	
+
+
+sS,sSs,sSsS,sSssS,sSsssS,sSssssS,sSsssssS,sSssssssS
+	iI	iIs	iIiI	iIsiI	iIssiI	iIsssiI	iIssssiI	iIsssssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIiI]
+	ssss -> iIiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIssssiI]
+	ssssssss -> iIssssiI
+	/sssssssss/	[iIsssssiI]
+	sssssssss -> iIsssssiI
+
+	ParseSyllableL/R	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	e	e	e	e	
+	e	L	e	e	W	L	L	e	
+	e	e	W	e	L	e	e	e	
+	e	e	e	W	L	e	e	e	
+
+
+Ss,sSs,SsSs,SssSs,SsssSs,SssssSs,SsssssSs,SssssssSs
+	Tt	sTt	TtTt	TtsTt	TtssTt	TtsssTt	TtssssTt	TtsssssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtssssTt]
+	ssssssss -> TtssssTt
+	/sssssssss/	[TtsssssTt]
+	sssssssss -> TtsssssTt
+
+	ParseSyllableL/R	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	e	e	e	e	
+	e	W	e	L	e	e	e	e	
+	e	e	L	W	e	e	L	e	
+	e	e	e	L	W	L	e	e	
+
+
+Ss,Sss,SsSs,SssSs,SsssSs,SssssSs,SsssssSs,SssssssSs
+	Tt	Tts	TtTt	TtsTt	TtssTt	TtsssTt	TtssssTt	TtsssssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[TtTt]
+	ssss -> TtTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtssssTt]
+	ssssssss -> TtssssTt
+	/sssssssss/	[TtsssssTt]
+	sssssssss -> TtsssssTt
+
+	ParseSyllableL/R	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	e	e	e	e	
+	e	W	e	e	L	e	e	e	
+	e	e	L	e	W	L	L	e	
+	e	e	e	W	L	e	e	e	
+
+
+sS,ssS,sssS,sSssS,sSsssS,sSssssS,sSsssssS,sSssssssS
+	iI	siI	ssiI	iIsiI	iIssiI	iIsssiI	iIssssiI	iIsssssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[ssiI]
+	ssss -> ssiI
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIssssiI]
+	ssssssss -> iIssssiI
+	/sssssssss/	[iIsssssiI]
+	sssssssss -> iIsssssiI
+
+	ParseSyllableL/R	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	e	e	e	e	
+	e	L	e	W	e	e	e	e	
+	e	e	W	L	e	e	e	e	
+	e	e	e	L	W	L	e	e	
+	e	e	e	L	e	e	W	e	
+
+
+sS,sSs,ssSs,sssSs,sSssSs,ssSssSs,sssSssSs,sSssSssSs
+	iI	iIs	siIs	ssiIs	iIsiIs	siIsiIs	ssiIsiIs	iIsiIsiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[ssiIs]
+	sssss -> ssiIs
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[siIsiIs]
+	sssssss -> siIsiIs
+	/ssssssss/	[ssiIsiIs]
+	ssssssss -> ssiIsiIs
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	e	W	e	e	L	e	e	
+	e	e	e	e	e	e	L	e	W	
+
+
+sS,sSs,sSss,sSsss,sSssSs,sSsssSs,sSssssSs,sSssSssSs
+	iI	iIs	iIss	iIsss	iIsiIs	iIssiIs	iIsssiIs	iIsiIsiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsss]
+	sssss -> iIsss
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIssiIs]
+	sssssss -> iIssiIs
+	/ssssssss/	[iIsssiIs]
+	ssssssss -> iIsssiIs
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	e	W	e	e	L	e	e	
+	e	e	e	e	W	e	L	e	W	
+
+
+sS,sSs,sSss,sSsss,sSssSs,sSssSss,sSssSsss,sSssSssSs
+	iI	iIs	iIss	iIsss	iIsiIs	iIsiIss	iIsiIsss	iIsiIsiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsss]
+	sssss -> iIsss
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIsiIss]
+	sssssss -> iIsiIss
+	/ssssssss/	[iIsiIsss]
+	ssssssss -> iIsiIsss
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	
+	e	e	e	W	e	e	L	e	e	
+	e	e	e	e	W	e	L	e	W	
+
+
+sS,sSs,sSss,sSssS,sSsssS,sSssssS,sSsssssS,sSssssssS
+	iI	iIs	iIss	iIsiI	iIssiI	iIsssiI	iIssssiI	iIsssssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsiI]
+	sssss -> iIsiI
+	/ssssss/	[iIssiI]
+	ssssss -> iIssiI
+	/sssssss/	[iIsssiI]
+	sssssss -> iIsssiI
+	/ssssssss/	[iIssssiI]
+	ssssssss -> iIssssiI
+	/sssssssss/	[iIsssssiI]
+	sssssssss -> iIsssssiI
+
+	ParseSyllableL/R	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	e	e	e	e	e	
+	e	L	e	e	W	L	e	e	
+	e	e	W	e	L	e	e	e	
+	e	e	e	W	L	e	e	e	
+	e	e	e	e	L	e	W	e	
+
+
+Ss,sSs,ssSs,sssSs,sSssSs,ssSssSs,sssSssSs,sSssSssSs
+	Fs	iIs	siIs	ssiIs	iIsiIs	siIsiIs	ssiIsiIs	iIsiIsiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[ssiIs]
+	sssss -> ssiIs
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[siIsiIs]
+	sssssss -> siIsiIs
+	/ssssssss/	[ssiIsiIs]
+	ssssssss -> ssiIsiIs
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	e	e	
+	e	L	e	W	e	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	e	L	e	L	W	e	e	
+	e	e	e	L	e	e	e	e	W	
+
+
+Ss,sSs,ssSs,SssSs,SsssSs,SssssSs,SsssssSs,SssssssSs
+	Tt	sTt	ssTt	TtsTt	TtssTt	TtsssTt	TtssssTt	TtsssssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[ssTt]
+	ssss -> ssTt
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtssssTt]
+	ssssssss -> TtssssTt
+	/sssssssss/	[TtsssssTt]
+	sssssssss -> TtsssssTt
+
+	ParseSyllableL/R	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	e	e	e	e	
+	e	W	e	L	e	e	e	e	
+	e	e	L	W	e	e	e	e	
+	e	e	e	L	W	L	e	e	
+	e	e	e	L	e	e	W	e	
+
+
+Ss,sSs,sSss,sSsss,sSssSs,sSsssSs,sSssssSs,sSssSssSs
+	Fs	iIs	iIss	iIsss	iIsiIs	iIssiIs	iIsssiIs	iIsiIsiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsss]
+	sssss -> iIsss
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIssiIs]
+	sssssss -> iIssiIs
+	/ssssssss/	[iIsssiIs]
+	ssssssss -> iIsssiIs
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	
+	e	L	e	W	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	e	L	W	e	e	e	W	
+	e	e	e	L	e	L	W	e	e	
+
+
+Ss,sSs,sSss,sSsss,sSssSs,sSssSss,sSssSsss,sSssSssSs
+	Fs	iIs	iIss	iIsss	iIsiIs	iIsiIss	iIsiIsss	iIsiIsiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsss]
+	sssss -> iIsss
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIsiIss]
+	sssssss -> iIsiIss
+	/ssssssss/	[iIsiIsss]
+	ssssssss -> iIsiIsss
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	e	e	e	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	
+	e	e	e	L	W	e	e	e	W	
+	e	e	e	L	e	L	W	e	e	
+
+
+Ss,Sss,sSss,ssSss,SssSss,sSssSss,ssSssSss,SssSssSss
+	Fs	Tts	sTts	ssTts	TtsTts	sTtsTts	ssTtsTts	TtsTtsTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[ssTts]
+	sssss -> ssTts
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[sTtsTts]
+	sssssss -> sTtsTts
+	/ssssssss/	[ssTtsTts]
+	ssssssss -> ssTtsTts
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	e	e	
+	e	L	W	e	e	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	L	e	e	L	W	e	e	
+	e	e	L	e	e	e	e	e	W	
+
+	Tt	Tts	sTts	ssTts	TtsTts	sTtsTts	ssTtsTts	TtsTtsTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[ssTts]
+	sssss -> ssTts
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[sTtsTts]
+	sssssss -> sTtsTts
+	/ssssssss/	[ssTtsTts]
+	ssssssss -> ssTtsTts
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	W	e	e	e	L	e	e	
+	e	e	e	e	e	e	L	e	W	
+
+
+Ss,Sss,Ssss,Sssss,SssSss,SsssSss,SssssSss,SssSssSss
+	Fs	Tts	Ttss	Ttsss	TtsTts	TtssTts	TtsssTts	TtsTtsTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[Ttsss]
+	sssss -> Ttsss
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtssTts]
+	sssssss -> TtssTts
+	/ssssssss/	[TtsssTts]
+	ssssssss -> TtsssTts
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	e	e	
+	e	L	W	e	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	L	e	W	e	e	e	W	
+	e	e	L	e	e	L	W	e	e	
+
+	Tt	Tts	Ttss	Ttsss	TtsTts	TtssTts	TtsssTts	TtsTtsTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[Ttsss]
+	sssss -> Ttsss
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtssTts]
+	sssssss -> TtssTts
+	/ssssssss/	[TtsssTts]
+	ssssssss -> TtsssTts
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	W	e	e	e	L	e	e	
+	e	e	e	e	W	e	L	e	W	
+
+
+Ss,Sss,Ssss,Sssss,SssSss,SssSsss,SssSssss,SssSssSss
+	Fs	Tts	Ttss	Ttsss	TtsTts	TtsTtss	TtsTtsss	TtsTtsTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[Ttsss]
+	sssss -> Ttsss
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtsTtss]
+	sssssss -> TtsTtss
+	/ssssssss/	[TtsTtsss]
+	ssssssss -> TtsTtsss
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	e	e	e	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	e	L	e	e	e	e	e	
+	e	e	L	e	W	e	e	e	W	
+	e	e	L	e	e	L	W	e	e	
+
+	Tt	Tts	Ttss	Ttsss	TtsTts	TtsTtss	TtsTtsss	TtsTtsTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[Ttsss]
+	sssss -> Ttsss
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtsTtss]
+	sssssss -> TtsTtss
+	/ssssssss/	[TtsTtsss]
+	ssssssss -> TtsTtsss
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	e	e	L	W	e	e	
+	L	e	e	e	e	e	e	W	e	
+	W	L	e	L	e	e	e	e	e	
+	e	e	W	e	e	e	L	e	e	
+	e	e	e	e	W	e	L	e	W	
+
+
+Ss,Sss,Ssss,SssSs,SsssSs,SssssSs,SsssssSs,SssssssSs
+	Tt	Tts	Ttss	TtsTt	TtssTt	TtsssTt	TtssssTt	TtsssssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[TtsTt]
+	sssss -> TtsTt
+	/ssssss/	[TtssTt]
+	ssssss -> TtssTt
+	/sssssss/	[TtsssTt]
+	sssssss -> TtsssTt
+	/ssssssss/	[TtssssTt]
+	ssssssss -> TtssssTt
+	/sssssssss/	[TtsssssTt]
+	sssssssss -> TtsssssTt
+
+	ParseSyllableL/R	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	e	e	e	e	
+	e	W	e	e	L	e	e	e	
+	e	e	L	e	W	L	e	e	
+	e	e	e	W	L	e	e	e	
+	e	e	e	e	L	e	W	e	
+
+
+ss,sSs,ssSs,sssSs,sSssSs,ssSssSs,sssSssSs,sSssSssSs
+	ss	iIs	siIs	ssiIs	iIsiIs	siIsiIs	ssiIsiIs	iIsiIsiIs	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[ssiIs]
+	sssss -> ssiIs
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[siIsiIs]
+	sssssss -> siIsiIs
+	/ssssssss/	[ssiIsiIs]
+	ssssssss -> ssiIsiIs
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	e	e	
+	e	L	e	W	e	e	e	e	L	
+	e	L	e	e	e	L	W	e	L	
+	e	L	e	e	e	e	e	W	e	
+
+
+ss,sSs,sSss,sSsss,sSssSs,sSsssSs,sSssssSs,sSssSssSs
+	ss	iIs	iIss	iIsss	iIsiIs	iIssiIs	iIsssiIs	iIsiIsiIs	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsss]
+	sssss -> iIsss
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIssiIs]
+	sssssss -> iIssiIs
+	/ssssssss/	[iIsssiIs]
+	ssssssss -> iIsssiIs
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	e	W	L	e	e	e	L	
+	e	e	e	e	L	L	W	e	L	
+
+
+ss,sSs,sSss,sSsss,sSssSs,sSssSss,sSssSsss,sSssSssSs
+	ss	iIs	iIss	iIsss	iIsiIs	iIsiIss	iIsiIsss	iIsiIsiIs	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsss]
+	sssss -> iIsss
+	/ssssss/	[iIsiIs]
+	ssssss -> iIsiIs
+	/sssssss/	[iIsiIss]
+	sssssss -> iIsiIss
+	/ssssssss/	[iIsiIsss]
+	ssssssss -> iIsiIsss
+	/sssssssss/	[iIsiIsiIs]
+	sssssssss -> iIsiIsiIs
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	e	W	L	e	e	e	L	
+	L	e	e	e	L	L	W	e	L	
+	L	e	e	e	e	e	e	W	e	
+	W	L	L	e	e	e	e	e	e	
+
+
+ss,Sss,sSss,ssSss,SssSss,sSssSss,ssSssSss,SssSssSss
+	ss	Tts	sTts	ssTts	TtsTts	sTtsTts	ssTtsTts	TtsTtsTts	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[ssTts]
+	sssss -> ssTts
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[sTtsTts]
+	sssssss -> sTtsTts
+	/ssssssss/	[ssTtsTts]
+	ssssssss -> ssTtsTts
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	L	e	e	e	e	
+	e	L	W	e	e	e	e	e	L	
+	e	L	e	e	e	L	W	e	L	
+	e	L	e	e	e	e	e	W	e	
+
+
+ss,Sss,Ssss,Sssss,SssSss,SsssSss,SssssSss,SssSssSss
+	ss	Tts	Ttss	Ttsss	TtsTts	TtssTts	TtsssTts	TtsTtsTts	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[Ttsss]
+	sssss -> Ttsss
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtssTts]
+	sssssss -> TtssTts
+	/ssssssss/	[TtsssTts]
+	ssssssss -> TtsssTts
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	e	
+	e	L	e	e	e	e	e	W	e	
+	e	e	W	e	L	e	e	e	L	
+	e	e	e	e	L	L	W	e	L	
+
+
+ss,Sss,Ssss,Sssss,SssSss,SssSsss,SssSssss,SssSssSss
+	ss	Tts	Ttss	Ttsss	TtsTts	TtsTtss	TtsTtsss	TtsTtsTts	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[Ttsss]
+	sssss -> Ttsss
+	/ssssss/	[TtsTts]
+	ssssss -> TtsTts
+	/sssssss/	[TtsTtss]
+	sssssss -> TtsTtss
+	/ssssssss/	[TtsTtsss]
+	ssssssss -> TtsTtsss
+	/sssssssss/	[TtsTtsTts]
+	sssssssss -> TtsTtsTts
+
+	ParseSyllableL	ParseSyllableR	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	e	L	e	e	e	L	
+	L	e	e	e	L	L	W	e	L	
+	L	e	e	e	e	e	e	W	e	
+	W	L	e	L	e	e	e	e	e	
+
+
+sS,ssS,sssS,ssssS,sssssS,ssssssS,sssssssS,ssssssssS
+	iI	siI	ssiI	sssiI	ssssiI	sssssiI	ssssssiI	sssssssiI	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[siI]
+	sss -> siI
+	/ssss/	[ssiI]
+	ssss -> ssiI
+	/sssss/	[sssiI]
+	sssss -> sssiI
+	/ssssss/	[ssssiI]
+	ssssss -> ssssiI
+	/sssssss/	[sssssiI]
+	sssssss -> sssssiI
+	/ssssssss/	[ssssssiI]
+	ssssssss -> ssssssiI
+	/sssssssss/	[sssssssiI]
+	sssssssss -> sssssssiI
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	W	e	L	e	e	e	e	
+	e	L	L	W	e	e	e	e	e	
+	e	L	e	e	e	W	e	e	W	
+	e	W	L	e	e	W	L	e	e	
+
+
+sS,sSs,ssSs,sssSs,ssssSs,sssssSs,ssssssSs,sssssssSs
+	iI	iIs	siIs	ssiIs	sssiIs	ssssiIs	sssssiIs	ssssssiIs	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[ssiIs]
+	sssss -> ssiIs
+	/ssssss/	[sssiIs]
+	ssssss -> sssiIs
+	/sssssss/	[ssssiIs]
+	sssssss -> ssssiIs
+	/ssssssss/	[sssssiIs]
+	ssssssss -> sssssiIs
+	/sssssssss/	[ssssssiIs]
+	sssssssss -> ssssssiIs
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	e	e	W	e	e	L	e	e	
+	e	e	e	e	e	e	L	e	W	
+
+
+sS,sSs,sSss,sSsss,sSssss,sSsssss,sSssssss,sSsssssss
+	iI	iIs	iIss	iIsss	iIssss	iIsssss	iIssssss	iIsssssss	
+
+	/ss/	[iI]
+	ss -> iI
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsss]
+	sssss -> iIsss
+	/ssssss/	[iIssss]
+	ssssss -> iIssss
+	/sssssss/	[iIsssss]
+	sssssss -> iIsssss
+	/ssssssss/	[iIssssss]
+	ssssssss -> iIssssss
+	/sssssssss/	[iIsssssss]
+	sssssssss -> iIsssssss
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	W	e	e	e	e	e	e	
+	e	L	L	W	e	e	L	e	e	
+	e	L	W	e	W	e	e	e	e	
+	e	W	W	e	e	L	W	e	e	
+	e	e	L	e	W	e	L	e	W	
+
+
+Ss,sSs,ssSs,sssSs,ssssSs,sssssSs,ssssssSs,sssssssSs
+	Fs	iIs	siIs	ssiIs	sssiIs	ssssiIs	sssssiIs	ssssssiIs	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[ssiIs]
+	sssss -> ssiIs
+	/ssssss/	[sssiIs]
+	ssssss -> sssiIs
+	/sssssss/	[ssssiIs]
+	sssssss -> ssssiIs
+	/ssssssss/	[sssssiIs]
+	ssssssss -> sssssiIs
+	/sssssssss/	[ssssssiIs]
+	sssssssss -> ssssssiIs
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	e	e	
+	e	L	e	W	e	e	e	e	e	
+	e	e	e	L	e	L	W	e	e	
+	e	e	e	L	e	e	e	e	W	
+
+	Tt	sTt	ssTt	sssTt	ssssTt	sssssTt	ssssssTt	sssssssTt	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[sTt]
+	sss -> sTt
+	/ssss/	[ssTt]
+	ssss -> ssTt
+	/sssss/	[sssTt]
+	sssss -> sssTt
+	/ssssss/	[ssssTt]
+	ssssss -> ssssTt
+	/sssssss/	[sssssTt]
+	sssssss -> sssssTt
+	/ssssssss/	[ssssssTt]
+	ssssssss -> ssssssTt
+	/sssssssss/	[sssssssTt]
+	sssssssss -> sssssssTt
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	W	L	e	e	e	e	
+	e	W	L	L	e	e	e	e	e	
+	e	e	L	e	e	W	e	e	W	
+	e	e	W	L	e	W	L	e	e	
+
+
+Ss,sSs,sSss,sSsss,sSssss,sSsssss,sSssssss,sSsssssss
+	Fs	iIs	iIss	iIsss	iIssss	iIsssss	iIssssss	iIsssssss	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsss]
+	sssss -> iIsss
+	/ssssss/	[iIssss]
+	ssssss -> iIssss
+	/sssssss/	[iIsssss]
+	sssssss -> iIsssss
+	/ssssssss/	[iIssssss]
+	ssssssss -> iIssssss
+	/sssssssss/	[iIsssssss]
+	sssssssss -> iIsssssss
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	W	e	e	e	e	e	e	
+	e	L	L	W	e	e	e	e	e	
+	e	L	W	e	W	e	e	e	e	
+	e	e	e	L	W	e	e	e	W	
+	e	e	e	L	e	L	W	e	e	
+
+
+Ss,Sss,sSss,ssSss,sssSss,ssssSss,sssssSss,ssssssSss
+	Fs	Tts	sTts	ssTts	sssTts	ssssTts	sssssTts	ssssssTts	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[ssTts]
+	sssss -> ssTts
+	/ssssss/	[sssTts]
+	ssssss -> sssTts
+	/sssssss/	[ssssTts]
+	sssssss -> ssssTts
+	/ssssssss/	[sssssTts]
+	ssssssss -> sssssTts
+	/sssssssss/	[ssssssTts]
+	sssssssss -> ssssssTts
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	L	L	e	e	e	e	
+	e	L	e	e	e	L	W	e	e	
+	e	L	e	e	e	e	e	e	W	
+	e	W	L	e	e	e	e	e	e	
+
+	Tt	Tts	sTts	ssTts	sssTts	ssssTts	sssssTts	ssssssTts	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[ssTts]
+	sssss -> ssTts
+	/ssssss/	[sssTts]
+	ssssss -> sssTts
+	/sssssss/	[ssssTts]
+	sssssss -> ssssTts
+	/ssssssss/	[sssssTts]
+	ssssssss -> sssssTts
+	/sssssssss/	[ssssssTts]
+	sssssssss -> ssssssTts
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	L	L	e	e	e	e	
+	e	W	e	e	e	e	L	e	e	
+	e	e	L	e	e	L	W	e	e	
+	e	e	e	e	e	e	L	e	W	
+
+
+Ss,Sss,Ssss,Sssss,Ssssss,Sssssss,Ssssssss,Sssssssss
+	Fs	Tts	Ttss	Ttsss	Ttssss	Ttsssss	Ttssssss	Ttsssssss	
+
+	/ss/	[Fs]
+	ss -> Fs
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[Ttsss]
+	sssss -> Ttsss
+	/ssssss/	[Ttssss]
+	ssssss -> Ttssss
+	/sssssss/	[Ttsssss]
+	sssssss -> Ttsssss
+	/ssssssss/	[Ttssssss]
+	ssssssss -> Ttssssss
+	/sssssssss/	[Ttsssssss]
+	sssssssss -> Ttsssssss
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	W	e	e	e	e	e	
+	e	L	e	e	W	e	e	e	W	
+	e	L	e	e	e	L	W	e	e	
+	e	W	L	L	e	e	e	e	e	
+	e	e	L	W	W	e	e	e	e	
+
+	Tt	Tts	Ttss	Ttsss	Ttssss	Ttsssss	Ttssssss	Ttsssssss	
+
+	/ss/	[Tt]
+	ss -> Tt
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[Ttsss]
+	sssss -> Ttsss
+	/ssssss/	[Ttssss]
+	ssssss -> Ttssss
+	/sssssss/	[Ttsssss]
+	sssssss -> Ttsssss
+	/ssssssss/	[Ttssssss]
+	ssssssss -> Ttssssss
+	/sssssssss/	[Ttsssssss]
+	sssssssss -> Ttsssssss
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	W	e	e	e	e	e	
+	e	W	L	L	e	e	L	e	e	
+	e	e	L	W	W	e	e	e	e	
+	e	e	W	W	e	L	W	e	e	
+	e	e	e	L	W	e	L	e	W	
+
+
+ss,sSs,ssSs,sssSs,ssssSs,sssssSs,ssssssSs,sssssssSs
+	ss	iIs	siIs	ssiIs	sssiIs	ssssiIs	sssssiIs	ssssssiIs	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[siIs]
+	ssss -> siIs
+	/sssss/	[ssiIs]
+	sssss -> ssiIs
+	/ssssss/	[sssiIs]
+	ssssss -> sssiIs
+	/sssssss/	[ssssiIs]
+	sssssss -> ssssiIs
+	/ssssssss/	[sssssiIs]
+	ssssssss -> sssssiIs
+	/sssssssss/	[ssssssiIs]
+	sssssssss -> ssssssiIs
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	L	e	L	e	e	e	e	
+	e	L	e	e	e	e	e	e	W	
+	e	e	e	W	e	e	e	e	L	
+	e	e	e	e	e	L	W	e	L	
+
+
+ss,sSs,sSss,sSsss,sSssss,sSsssss,sSssssss,sSsssssss
+	ss	iIs	iIss	iIsss	iIssss	iIsssss	iIssssss	iIsssssss	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[iIs]
+	sss -> iIs
+	/ssss/	[iIss]
+	ssss -> iIss
+	/sssss/	[iIsss]
+	sssss -> iIsss
+	/ssssss/	[iIssss]
+	ssssss -> iIssss
+	/sssssss/	[iIsssss]
+	sssssss -> iIsssss
+	/ssssssss/	[iIssssss]
+	ssssssss -> iIssssss
+	/sssssssss/	[iIsssssss]
+	sssssssss -> iIsssssss
+
+	ParseSyllableL/R	TrocheeL	TrocheeR	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	W	e	e	e	e	e	e	
+	e	L	W	e	W	e	e	e	e	
+	e	e	L	e	W	e	e	e	W	
+	e	e	e	W	L	e	e	e	L	
+	e	e	e	e	L	L	W	e	L	
+
+
+ss,Sss,sSss,ssSss,sssSss,ssssSss,sssssSss,ssssssSss
+	ss	Tts	sTts	ssTts	sssTts	ssssTts	sssssTts	ssssssTts	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[sTts]
+	ssss -> sTts
+	/sssss/	[ssTts]
+	sssss -> ssTts
+	/ssssss/	[sssTts]
+	ssssss -> sssTts
+	/sssssss/	[ssssTts]
+	sssssss -> ssssTts
+	/ssssssss/	[sssssTts]
+	ssssssss -> sssssTts
+	/sssssssss/	[ssssssTts]
+	sssssssss -> ssssssTts
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	L	L	e	e	e	e	
+	e	W	e	e	e	e	e	e	L	
+	e	e	L	e	e	e	e	e	W	
+	e	e	e	e	e	L	W	e	L	
+
+
+ss,Sss,Ssss,Sssss,Ssssss,Sssssss,Ssssssss,Sssssssss
+	ss	Tts	Ttss	Ttsss	Ttssss	Ttsssss	Ttssssss	Ttsssssss	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[Tts]
+	sss -> Tts
+	/ssss/	[Ttss]
+	ssss -> Ttss
+	/sssss/	[Ttsss]
+	sssss -> Ttsss
+	/ssssss/	[Ttssss]
+	ssssss -> Ttssss
+	/sssssss/	[Ttsssss]
+	sssssss -> Ttsssss
+	/ssssssss/	[Ttssssss]
+	ssssssss -> Ttssssss
+	/sssssssss/	[Ttsssssss]
+	sssssssss -> Ttsssssss
+
+	ParseSyllableL/R	TrocheeL/R	IambL	IambR	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	e	W	W	e	e	e	e	e	
+	e	W	e	e	L	e	e	e	L	
+	e	e	L	W	W	e	e	e	e	
+	e	e	e	L	W	e	e	e	W	
+	e	e	e	e	L	L	W	e	L	
+
+
+ss,sss,ssss,sssss,ssssss,sssssss,ssssssss,sssssssss
+	ss	sss	ssss	sssss	ssssss	sssssss	ssssssss	sssssssss	
+
+	/ss/	[ss]
+	ss -> ss
+	/sss/	[sss]
+	sss -> sss
+	/ssss/	[ssss]
+	ssss -> ssss
+	/sssss/	[sssss]
+	sssss -> sssss
+	/ssssss/	[ssssss]
+	ssssss -> ssssss
+	/sssssss/	[sssssss]
+	sssssss -> sssssss
+	/ssssssss/	[ssssssss]
+	ssssssss -> ssssssss
+	/sssssssss/	[sssssssss]
+	sssssssss -> sssssssss
+
+	ParseSyllableL/R	TrocheeL/R	IambL/R	FootLeftL/R	FootRightL/R	NonFinalityL/R	*FootFootL/R	Hd(PrWd)L/R
+	L	W	e	L	e	e	e	L	
+	L	e	W	L	e	e	e	L	
+	e	W	e	e	L	W	e	e	
+	e	e	W	e	L	W	e	e	
+
+
