@@ -1,9 +1,9 @@
 # GEN functions
 
-# s  = unsyllabified syllable
-# Tt = disyllabic trochee
-# iI = disyllabic iamb
-# F  = unary foot
+# s  = unfooted syllable
+# Tt = trochee
+# iI = iamb
+# F  = monosyllabic foot
 
 def gen_foot(input):
 	candidates = set([])
