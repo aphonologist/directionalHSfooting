@@ -15,8 +15,10 @@ def leq(v1, v2):
 			return False
 	return True
 
+# underlying forms
 urs = ['s' * i for i in range(2, 10)]
 
+# parallel/serial gen
 parallel = True
 
 if parallel:
@@ -24,6 +26,7 @@ if parallel:
 else:
 	from gen import gen_foot as gen
 
+# traditional/directional constraints
 traditional = False
 
 if traditional:
@@ -51,23 +54,6 @@ else:
 		HdPrWd('L'), HdPrWd('R')
 		]
 
-# Directional typology with ILT
-#con = [ParseSyllable('L'), ParseSyllable('R'),
-#	Trochee('L'), Trochee('R'), Iamb('L'), Iamb('R'),
-#	TrocheeNonMin('L'), TrocheeNonMin('R'),
-#	IambNonMin('L'), IambNonMin('R'),
-#	FtBin('L'), FtBin('R'),
-#	InitialGridMark('L'), InitialGridMark('R'),
-#	FootRight('L'), FootRight('R'),
-#	NonFinality('L'), NonFinality('R'),
-#	HdPrWd('L'), HdPrWd('R')]
-
-# Left-to-right constraints
-#con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('L'), Iamb('L'), FtBin('L'), FootLeft('L'), FootRight('L'), NonFinality('L'), FootFoot('L'), HdPrWd('L')]
-
-# Right-to-left constraints
-#con = [ParseSyllable('L'), ParseSyllable('R'), Trochee('R'), Iamb('R'), FtBin('R'), FootLeft('R'), FootRight('R'), NonFinality('R'), FootFoot('R'), HdPrWd('R')]
-
 typology = []
 
 # (SKB, derivation)
@@ -87,7 +73,6 @@ for ur in urs:
 
 		# Generate candidate set
 		input = derivation[1][-1]
-#		candidates = gen(input)
 		candidates = sorted(list(gen(input)))
 
 		# Assemble tableau
@@ -171,9 +156,9 @@ for language in sorted(typology):
 	feet = '\t'
 	for derivation in language[1:]:
 		rhythm = derivation[-1]
-		for stressed_syllable in ['F', 'T', 'D', 'I', 'Y']:
+		for stressed_syllable in ['F', 'T', 'I']:
 			rhythm = rhythm.replace(stressed_syllable, 'S')
-		for unstressed_syllable in ['t', 'd', 'i', 'y']:
+		for unstressed_syllable in ['t', 'i']:
 			rhythm = rhythm.replace(unstressed_syllable, 's')
 		stress.append(rhythm)
 		feet += derivation[-1] + '\t'
