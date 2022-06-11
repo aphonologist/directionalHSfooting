@@ -11,3 +11,4 @@ This repository contains a typology calculator for Harmonic Serialism based on t
 To use this software, provide URs and CON to typologizer.py and run the script with Python 3. The script conducts a breadth-first search over derivations, pruning branches with unsatisfiable ranking conditions. After this search concludes, the script tests whether the directionalities of any constraints matter.
 
 ![](anifred.gif)
+# directionalHSautosegments
